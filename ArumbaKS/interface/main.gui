@@ -119,7 +119,7 @@ guiTypes = {
 		guiButtonType = 
 		{
 			name = "icon_topbar_observe"
-			position = { x = 7 y = 7 }
+			position = { x = 107 y = 7 }
 			quadTextureSprite = "GFX_icon_topbar_observe"
 			Orientation = "UPPER_LEFT"
 		}
@@ -1055,6 +1055,14 @@ guiTypes = {
 				quadTextureSprite = "GFX_minimap_ticker"
 				Orientation = "UPPER_LEFT"
 				clicksound = generic_click_04
+			}
+			guiButtonType = {
+				name = "minimap_nextsong"
+				position = { x = 6  y = -17 }
+				quadTextureSprite ="GFX_minimap_nextsong"
+				Orientation = "UPPER_LEFT"
+				clicksound = generic_click_04
+				pdx_tooltip = "MINIMAP_NEXTSONG"
 			}
 			guiButtonType = {
 				name = "minimap_chronicle"
