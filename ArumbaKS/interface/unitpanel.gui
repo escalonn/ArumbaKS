@@ -208,7 +208,7 @@ guiTypes = {
 			position = { x = 250 y = 32 }
 			quadTextureSprite = "GFX_unitpanel_button_looter_toggle"
 			clicksound = generic_click_01
-			shortcut = "l"
+			priority_shortcut = "l"
 		}
 		
 	}
