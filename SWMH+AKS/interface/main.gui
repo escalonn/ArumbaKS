@@ -752,7 +752,8 @@ guiTypes = {
 			iconType = {
 				name = "minimap_bg_big"
 				spriteType = "GFX_minimap_bg_big"
-				position = { x=0 y=-60 }
+				#position = { x=0 y=-60 } # 2.6
+				position = { x=0 y=-38 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
@@ -781,7 +782,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_terrain"
-					position = { x = 0 y = -22 }
+					#position = { x = 0 y = -22 } # 2.6
+					position = { x = 0 y = 0 }
 					quadTextureSprite ="GFX_mapmode_terrain"
 					Orientation = "UPPER_LEFT"
 					shortcut = "q"
@@ -792,7 +794,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_realms"
-					position = { x = 29 y = -22 }
+					#position = { x = 29 y = -22 } # 2.6
+					position = { x = 29 y = 0 }
 					quadTextureSprite ="GFX_mapmode_realms"
 					Orientation = "UPPER_LEFT"
 					shortcut = "w"
@@ -803,7 +806,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_diplo"
-					position = { x = 58 y = -22 }
+					#position = { x = 58 y = -22 } # 2.6
+					position = { x = 58 y = 0 }
 					quadTextureSprite ="GFX_mapmode_diplo"
 					Orientation = "UPPER_LEFT"
 					shortcut = "e"
@@ -814,7 +818,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_religion"
-					position = { x = 87 y = -22 }
+					#position = { x = 87 y = -22 } # 2.6
+					position = { x = 87 y = 0 }
 					quadTextureSprite ="GFX_mapmode_religion"
 					Orientation = "UPPER_LEFT"
 					shortcut = "r"
@@ -825,7 +830,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_culture"
-					position = { x = 116 y = -22 }
+					#position = { x = 116 y = -22 } # 2.6
+					position = { x = 116 y = 0 }
 					quadTextureSprite ="GFX_mapmode_culture"
 					Orientation = "UPPER_LEFT"
 					shortcut = "t"
@@ -836,7 +842,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_economy"
-					position = { x = 145 y = -22 }
+					#position = { x = 145 y = -22 } # 2.6
+					position = { x = 145 y = 0 }
 					quadTextureSprite ="GFX_mapmode_economy"
 					Orientation = "UPPER_LEFT"
 					shortcut = "u"
@@ -847,7 +854,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_duchies"
-					position = { x = 174 y = -22 }
+					#position = { x = 174 y = -22 } # 2.6
+					position = { x = 174 y = 0 }
 					quadTextureSprite ="GFX_mapmode_duchies"
 					Orientation = "UPPER_LEFT"
 					shortcut = "i"
@@ -858,7 +866,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_kingdoms"
-					position = { x = 203 y = -22 }
+					#position = { x = 203 y = -22 } # 2.6
+					position = { x = 203 y = 0 }
 					quadTextureSprite ="GFX_mapmode_kingdoms"
 					Orientation = "UPPER_LEFT"
 					shortcut = "o"
@@ -869,7 +878,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_dejureempires"
-					position = { x = 232 y = -22 }
+					#position = { x = 232 y = -22 } # 2.6
+					position = { x = 232 y = 0 }
 					quadTextureSprite ="GFX_mapmode_dejureempires"
 					Orientation = "UPPER_LEFT"
 					shortcut = "p"
@@ -882,7 +892,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_revoltrisk"
-					position = { x = 0 y = 0 }
+					#position = { x = 0 y = 0 } # 2.6
+					position = { x = 0 y = 22 }
 					quadTextureSprite ="GFX_mapmode_revoltrisk"
 					Orientation = "UPPER_LEFT"
 					shortcut = "a"
@@ -893,7 +904,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_dynasties"
-					position = { x = 29 y = 0 }
+					#position = { x = 29 y = 0 } # 2.6
+					position = { x = 29 y = 22 }
 					quadTextureSprite ="GFX_mapmode_dynasties"
 					Orientation = "UPPER_LEFT"
 					shortcut = "s"
@@ -904,7 +916,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_opinions"
-					position = { x = 58 y = 0 }
+					#position = { x = 58 y = 0 } # 2.6
+					position = { x = 58 y = 22 }
 					quadTextureSprite ="GFX_mapmode_opinions"
 					Orientation = "UPPER_LEFT"
 					shortcut = "d"
@@ -915,7 +928,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_directvassals"
-					position = { x = 87 y = 0 }
+					#position = { x = 87 y = 0 } # 2.6
+					position = { x = 87 y = 22 }
 					quadTextureSprite ="GFX_mapmode_directvassals"
 					Orientation = "UPPER_LEFT"
 					shortcut = "f"
@@ -926,7 +940,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_trade_zones"
-					position = { x = 116 y = 0 }
+					#position = { x = 116 y = 0 } # 2.6
+					position = { x = 116 y = 22 }
 					quadTextureSprite ="GFX_mapmode_trade_zones"
 					Orientation = "UPPER_LEFT"
 					shortcut = "g"
@@ -937,7 +952,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_governments"
-					position = { x = 145 y = 0 }
+					#position = { x = 145 y = 0 } # 2.6
+					position = { x = 145 y = 22 }
 					quadTextureSprite ="GFX_mapmode_governments"
 					Orientation = "UPPER_LEFT"
 					shortcut = "h"
@@ -948,7 +964,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_coalitions"
-					position = { x = 174 y = 0 }
+					#position = { x = 174 y = 0 } # 2.6
+					position = { x = 174 y = 22 }
 					quadTextureSprite ="GFX_mapmode_coalitions"
 					Orientation = "UPPER_LEFT"
 					shortcut = "j"
@@ -959,7 +976,8 @@ guiTypes = {
 				guiButtonType = 
 				{ 
 					name = "mapmode_epidemics"
-					position = { x = 203 y = 0 }
+					#position = { x = 203 y = 0 } # 2.6
+					position = { x = 203 y = 22 }
 					quadTextureSprite ="GFX_mapmode_epidemics"
 					Orientation = "UPPER_LEFT"
 					shortcut = "k"
@@ -970,7 +988,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "mapmode_players"
-					position = { x = 232 y = 0 }
+					#position = { x = 232 y = 0 } # 2.6
+					position = { x = 232 y = 22 }
 					quadTextureSprite ="GFX_mapmode_players"
 					Orientation = "UPPER_LEFT"
 					shortcut = "l"
