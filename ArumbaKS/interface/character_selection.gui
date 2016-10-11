@@ -3,7 +3,7 @@ guiTypes = {
 	windowType = {
 		name = "character_selection"
 		backGround = "background"
-		position = { x=547 y=149 }	
+		position = { x=546 y=97 }	
 		size = { x=512 y=512 }
 		moveable = 1
 		dontRender = ""
