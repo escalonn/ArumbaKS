@@ -1159,7 +1159,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_minimap_findprov"
 				Orientation = "UPPER_LEFT"
 #				clicksound = generic_click_04
-				shortcut = "/"
+				shortcut = "?"
 			}
 			guiButtonType = {
 				name = "minimap_characters"

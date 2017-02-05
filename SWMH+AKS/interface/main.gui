@@ -535,7 +535,7 @@ guiTypes = {
 		{
 			name = "messagelog_window"
 			backGround="background"
-			position = { x=352 y=-118 }	
+			position = { x=700 y=-118 }	
 			size = { x=390 y=115 }	
 			moveable = 0
 			dontRender = ""
@@ -553,12 +553,13 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="messagelog"
-				position = { x = 4 y = 8 }
+				position = { x = 20 y = 8 }
 				backGround=""
-				size = { x= 367 y = 96 }
+				size = { x= 930 y = 96 }
 				Orientation = "UPPER_LEFT"
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
+				offset = { x=-1272 y=0 }
 				borderSize = {x = 0 y = 0}
 			}
 		}
@@ -1158,7 +1159,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_minimap_findprov"
 				Orientation = "UPPER_LEFT"
 #				clicksound = generic_click_04
-				shortcut = "/"
+				shortcut = "?"
 			}
 			guiButtonType = {
 				name = "minimap_characters"
