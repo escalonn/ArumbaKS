@@ -76,7 +76,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			text = "-100%"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 40
 			maxHeight = 20	
 			format = centre
@@ -130,7 +130,7 @@ guiTypes = {
 			textureFile = ""
 			font = "Arial12_black"
 			borderSize = {x = 0 y = 0}
-			text = "100%"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 32
 			maxHeight = 20	
 			format = centre
@@ -231,7 +231,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			text = "Battle of Hastings"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 475
 			maxHeight = 20	
 			format = centre
@@ -244,7 +244,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
-			text = "Victory!"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 105
 			maxHeight = 24	
 			format = centre
@@ -358,18 +358,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			shortcut = "ESCAPE"
 		}
-
-		iconType = {
-			name = "left_debug"
-			position = { x = 25 y = 30 }
-			spriteType = "GFX_waroverview_debug"
-		}
-
-		iconType = {
-			name = "right_debug"
-			position = { x = 545 y = 30 }
-			spriteType = "GFX_waroverview_debug"
-		}
 		
 		guiButtonType = {
 			name ="left_portrait"
@@ -401,7 +389,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			text = "100%"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 40
 			maxHeight = 20	
 			format = centre
@@ -437,7 +425,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			text = "100%"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 40
 			maxHeight = 20	
 			format = centre
@@ -502,7 +490,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "Start year: 1208"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 459
 			maxHeight =24
 			fixedsize = yes
@@ -538,7 +526,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			text = "23%"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 50
 			maxHeight =20
 			fixedsize = yes
@@ -550,7 +538,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			text = "23%"	
+			text = "UI_MISSING_TEXT"	
 			maxWidth = 50
 			maxHeight =20
 			fixedsize = yes

@@ -38,7 +38,7 @@
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "Kungen"	
+				text = "UI_MISSING_TEXT"	
 				maxWidth = 216
 				maxHeight =24
 				fixedsize = yes
@@ -105,7 +105,7 @@
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "0%"	
+				text = "UI_MISSING_TEXT"	
 				maxWidth = 44
 				maxHeight = 20	
 				format = centre
@@ -143,7 +143,7 @@
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					text = "+17"	
+					text = "UI_MISSING_TEXT"	
 					maxWidth = 50
 					maxHeight = 20
 					format = left
@@ -183,7 +183,7 @@
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					text = "test string."	
+					text = "UI_MISSING_TEXT"	
 					maxWidth = 264
 					maxHeight = 110
 					format = centre
@@ -210,7 +210,7 @@
 					position = { x= 82 y = 196 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="actor_selected_portrait_status"
 					spriteType = "GFX_overlay_char_status_75"
 					position = { x= 142 y = 255 }
@@ -237,7 +237,7 @@
 					position = { x= 189 y = 196 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="recipient_selected_portrait_status"
 					spriteType = "GFX_overlay_char_status_75"
 					position = { x= 199 y = 255 }
@@ -265,7 +265,7 @@
 					position = { x= 46 y = 181 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="you_portrait_status"
 					spriteType = "GFX_overlay_char_status_50"
 					position = { x= 50 y = 184 }
@@ -291,7 +291,7 @@
 					position = { x= 254 y = 181 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="other_portrait_status"
 					spriteType = "GFX_overlay_char_status_50"
 					position = { x= 258 y = 184 }
@@ -405,7 +405,7 @@
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					text = "test string."	
+					text = "UI_MISSING_TEXT"	
 					maxWidth = 264
 					maxHeight = 110
 					format = centre
@@ -433,7 +433,7 @@
 					position = { x= 137 y = 196 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="selected_portrait_status"
 					spriteType = "GFX_overlay_char_status_75"
 					position = { x= 147 y = 201 }
@@ -460,7 +460,7 @@
 					position = { x= 46 y = 181 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="you_portrait_status"
 					spriteType = "GFX_overlay_char_status_50"
 					position = { x= 50 y = 184 }
@@ -486,7 +486,7 @@
 					position = { x= 254 y = 181 }
 					Orientation = "UPPER_LEFT"
 				}
-				iconType = {
+				guiButtonType = {
 					name ="other_portrait_status"
 					spriteType = "GFX_overlay_char_status_50"
 					position = { x= 258 y = 184 }
@@ -610,7 +610,7 @@
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					text = "test string."	
+					text = "UI_MISSING_TEXT"	
 					maxWidth = 264
 					maxHeight = 110
 					format = centre
@@ -775,7 +775,7 @@
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					text = "test string."	
+					text = "UI_MISSING_TEXT"	
 					maxWidth = 264
 					maxHeight = 110
 					format = centre
@@ -914,7 +914,7 @@
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					text = "test string."	
+					text = "UI_MISSING_TEXT"	
 					maxWidth = 264
 					maxHeight = 110
 					format = centre
@@ -996,7 +996,7 @@
 						position = { x = -28 y = 10 }
 						textureFile = ""
 						font = "vic_18"
-						text = "COUNCIL_TEXT"
+						text = "UI_MISSING_TEXT"
 						maxWidth = 255
 						maxHeight = 20
 						format = centre
@@ -1053,7 +1053,7 @@
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "temp_text"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 215
 			maxHeight = 20
 			format = centre
@@ -1105,7 +1105,7 @@
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "temp_text"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 215
 			maxHeight = 20
 			format = centre
@@ -1158,7 +1158,7 @@
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "temp_text"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 215
 			maxHeight = 20
 			format = centre
@@ -1201,7 +1201,7 @@
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "temp_text"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 223
 			maxHeight = 20
 			format = centre
@@ -1245,7 +1245,7 @@
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "temp_text"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 195
 			maxHeight = 20
 			format = left

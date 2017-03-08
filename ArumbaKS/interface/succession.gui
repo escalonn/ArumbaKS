@@ -53,7 +53,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22_black"
 			borderSize = {x = 0 y = 0}
-			text = "RULER_DEAD"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 293
 			maxHeight = 134
 			#format = centre
@@ -66,7 +66,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22_black"
 			borderSize = {x = 0 y = 0}
-			text = "RULER_DEAD"
+			text = "UI_MISSING_TEXT"
 			maxWidth = 275
 			maxHeight = 134
 			#format = centre
@@ -375,7 +375,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
-				text = "Bosse II"
+				text = "UI_MISSING_TEXT"
 				maxWidth = 160
 				maxHeight = 18
 				fixedsize = yes
@@ -387,7 +387,7 @@ guiTypes = {
 				textureFile = ""
 				font = "Arial12_black"
 				borderSize = {x = 0 y = 0}
-				text = "Duke of Uppland"
+				text = "UI_MISSING_TEXT"
 				maxWidth = 160
 				maxHeight = 18
 				fixedsize = yes
@@ -405,7 +405,7 @@ guiTypes = {
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
-				text = "-30"
+				text = "UI_MISSING_TEXT"
 				maxWidth = 35
 				maxHeight = 18
 				fixedsize = yes
