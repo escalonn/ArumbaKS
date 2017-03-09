@@ -249,7 +249,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_unitpanel_button_looter_toggle"
 			clicksound = generic_click_01
 			priority_shortcut = "l"
-			take_events_when_disabled = yes
 		}
 		
 	}
@@ -431,7 +430,6 @@ guiTypes = {
 				quadTextureSprite ="GFX_unitpanel_button_splithalf"
 				clicksound = generic_click_01
 				priority_shortcut = "s"
-				take_events_when_disabled = yes
 		}			
 		guiButtonType = {
 				name = "loadtoshipbutton"

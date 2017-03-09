@@ -574,6 +574,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_big_button_220"
 			buttonText = "QUIT_TO_MENU"
 			buttonFont = "vic_22"
+			shortcut = "c"
 		}
 		
 		guiButtonType = {
@@ -805,6 +806,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "PreviousPage"
 			position = { x = 49 y = 628 }
+			shortcut="b"
 			quadTextureSprite = "GFX_chronicle_previous_page"
 			clicksound = turning_page
 		}
@@ -812,6 +814,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "NextPage"
 			position = { x = 987 y = 628 }
+			shortcut="n"
 			quadTextureSprite = "GFX_chronicle_next_page"
 			clicksound = turning_page
 		}

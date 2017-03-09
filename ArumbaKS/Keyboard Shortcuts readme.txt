@@ -1,18 +1,26 @@
 #########################################
-Arumba’s Keyboard Shortcuts (HIP fork)
+Arumba and Internal Tab Shortcuts (HIP fork)
 
 This mod is a fork of Arumba’s original Keyboard Shortcuts + Interface Adjust
 mod for vanilla CK2. It’s been incorporated into HIP with his permission and
 our gratitude. The fork is maintained by IoannesBarbarus.
 
+With thanks to its author Kamufen, the Internal Tab Shortcuts mod has also been
+incorporated.
+
 original Keyboard Shortcuts for vanilla CK2:
+- https://steamcommunity.com/sharedfiles/filedetails/?id=785399174
 - https://forum.paradoxplaza.com/forum/index.php?threads/couple-minor-mods-keyboard-shortcuts-and-interface-adjust.672542/
 - http://www.arumba.tv/mods/
 
+original Internal Tabs Shortcuts for vanilla CK2:
+- http://steamcommunity.com/sharedfiles/filedetails/?id=794735071
+
 USAGE:
 See below for an updated version of Arumba’s readme explaining the various
-keyboard shortcuts. Most of those shortcuts have been added to vanilla since
-2.4. But the mod is still necessary for these items:
+keyboard shortcuts. Check the description of the Internal Tabs Shortcuts mod
+for a list of its added shortcuts. Most of those shortcuts have been added to
+vanilla since 2.4. But the mod is still necessary for these items:
 
 z will 'cancel' or 'go to' on event windows (such as disband troops, or after a siege/battle has completed)
 z will go to the previous holding in demesne

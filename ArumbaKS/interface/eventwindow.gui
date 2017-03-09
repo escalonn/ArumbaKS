@@ -971,6 +971,7 @@ guiTypes = {
 			buttonFont = "vic_18"
 			position = { x= 101 y = 239 }
 			clicksound = generic_click_04
+			shortcut = "z"
 		}
 		guiButtonType = {
 			name ="Message_Ok"
@@ -979,6 +980,7 @@ guiTypes = {
 			buttonFont = "vic_18"
 			position = { x= 328 y = 239 }
 			clicksound = generic_click_04
+			shortcut = "c"
 		}
 		guiButtonType = {
 			name ="Message_Settings"
