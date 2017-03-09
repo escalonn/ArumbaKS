@@ -8,6 +8,8 @@ our gratitude. The fork is maintained by IoannesBarbarus.
 With thanks to its author Kamufen, the Internal Tab Shortcuts mod has also been
 incorporated.
 
+This module is redundant if Kamufen’s Bigger Interface for HIP mod is enabled.
+
 original Keyboard Shortcuts for vanilla CK2:
 - https://steamcommunity.com/sharedfiles/filedetails/?id=785399174
 - https://forum.paradoxplaza.com/forum/index.php?threads/couple-minor-mods-keyboard-shortcuts-and-interface-adjust.672542/
