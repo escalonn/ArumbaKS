@@ -819,6 +819,7 @@ guiTypes = {
 			#clicksound = character_view_click
 			clicksound = choose_country_1
 			#scale = 0.8
+			shortcut = "1"
 		}
 		guiButtonType =	{
 			name = "tab_6"
@@ -829,6 +830,7 @@ guiTypes = {
 			#clicksound = character_view_click
 			clicksound = choose_country_4
 			#scale = 0.8
+			shortcut = "2"
 		}		
 		guiButtonType =	{
 			name = "tab_2"
@@ -839,6 +841,7 @@ guiTypes = {
 			#clicksound = character_view_click
 			clicksound = choose_country_5
 			#scale = 0.87
+			shortcut = "3"
 		}
 		guiButtonType =	{
 			name = "tab_3"
@@ -848,6 +851,7 @@ guiTypes = {
 			#clicksound = character_view_click
 			clicksound = choose_country_6
 			#scale = 0.87
+			shortcut = "4"
 		}
 		guiButtonType =	{
 			name = "tab_4"
@@ -857,6 +861,7 @@ guiTypes = {
 			#clicksound = character_view_click
 			clicksound = choose_country_7
 			#scale = 0.87
+			shortcut = "5"
 		}
 		guiButtonType =	{
 			name = "tab_5"
@@ -866,6 +871,7 @@ guiTypes = {
 			#clicksound = character_view_click
 			clicksound = choose_country_8
 			#scale = 0.87
+			shortcut = "6"
 		}
 		###
 		instantTextBoxType = {

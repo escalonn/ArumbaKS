@@ -180,6 +180,12 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
+			name ="court_bg_council_old" # Used if MnM is disabled
+			spriteType = "GFX_court_bg_council_old"
+			position = { x= 15 y = 178 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
 			name ="repover_council_1"
 			spriteType = "GFX_repover_council_1"
 			position = { x= 16 y = 181 }
