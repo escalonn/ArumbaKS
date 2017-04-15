@@ -812,7 +812,6 @@ guiTypes = {
 			shortcut="b"
 			quadTextureSprite = "GFX_chronicle_previous_page"
 			clicksound = turning_page
-			priority_shortcut = "<" #arkopack
 		}
 		
 		guiButtonType = {
@@ -821,7 +820,6 @@ guiTypes = {
 			shortcut="n"
 			quadTextureSprite = "GFX_chronicle_next_page"
 			clicksound = turning_page
-			priority_shortcut = ">" #arkopack
 		}
 	}
 	

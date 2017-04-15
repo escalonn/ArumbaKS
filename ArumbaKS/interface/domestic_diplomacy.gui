@@ -589,6 +589,124 @@
 				}
 			}
 			
+			############### ACTION WITH ARTIFACT SELECTION
+			windowType = {
+				name = "select_artifact"
+				backGround=""
+				position = { x=0 y=64 }
+				orientation="UPPER_LEFT"
+				size = { x=320 y=448 }
+				moveable = 0
+
+				iconType = {
+					name ="diplo_actionbg_options"
+					spriteType = "GFX_diplo_actionbg_options"
+					position = { x= 22 y = -69 }
+					Orientation = "UPPER_LEFT"
+				}
+		
+				instantTextBoxType = {
+					name = "action_title"
+					position = { x = 50 y = -57 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = {x = 0 y = 0}
+					text = "UI_MISSING_TEXT"	
+					maxWidth = 264
+					maxHeight = 110
+					format = centre
+				}
+				
+				iconType = {
+					name = "info_icon"
+					spriteType ="GFX_laws_info"
+					position = { x = 279 y = -64 }
+					orientation = "UPPER_LEFT"
+				}
+				
+				listboxType = {
+					name = "options"
+					position = { x = 67 y = 163 }
+					backGround=""
+					size = { x = 240 y = 150 }
+					spacing = 1.0
+					scrollbartype = "standardlistbox_slider"
+					borderSize = { x = 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "info_text"
+					position = { x = 50 y = -30 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = {x = 0 y = 0}
+					text = ""
+					maxWidth = 264
+					maxHeight = 184
+					format = centre
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				
+				iconType = {
+					name ="diplo_chance_bg"
+					spriteType = "GFX_diplo_chance_bg"
+					position = { x= 115 y = 296 }
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "ai_accept"
+					position = { x = 118 y = 302 }
+					font = "vic_18_black"
+					text = ""	
+					maxWidth = 127
+					maxHeight =20
+					fixedsize = yes
+					format = center
+				}
+				
+				guiButtonType =	{
+					name = "execute"
+					position = { x=98 y=323}
+					quadTextureSprite ="GFX_diplo_sendbutton"
+					buttonFont = "vic_22"
+					buttonText = "DIP_SEND"
+					pdx_tooltip = "GETISVALIDDESC"
+					clicksound = generic_click_04
+					shortcut = "c"
+				}
+				guiButtonType =	{
+					name = "execute_other"
+					position = { x=98 y=323}
+					quadTextureSprite ="GFX_diplo_sendbutton"
+					buttonFont = "vic_22"
+					buttonText = "DIP_PERFORM_ACTION"
+					clicksound = generic_click_04
+				}
+
+				guiButtonType = {
+					name ="vote_for"
+					quadTextureSprite = "GFX_vote_for"
+					position = { x= 270 y = 320 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				guiButtonType = {
+					name ="vote_against"
+					quadTextureSprite = "GFX_vote_against"
+					position = { x= 270 y = 320 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				guiButtonType = {
+					name ="vote_abstain"
+					quadTextureSprite = "GFX_vote_abstain"
+					position = { x= 270 y = 320 }
+					Orientation = "UPPER_LEFT"
+				}
+			}
+			
 			####### ACTION WITH ONLY TEXT.
 			windowType = {
 				name = "action_with_text"
@@ -1206,6 +1324,54 @@
 			maxHeight = 20
 			format = centre
 			fixedsize = yes
+		}
+	}
+	
+	### artifact entry buttons
+	windowType = {
+		name = "artifact_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=250 y=34 }
+		moveable = 0
+		
+		iconType = {
+			name = "frame"
+			position = { x=-29 y=-11 }
+			quadTextureSprite = "GFX_small_artifact_frame"
+		}
+		iconType = {
+			name = "icon"
+			position = { x=-15 y=0 }
+			quadTextureSprite = "GFX_test_64"
+		}
+		
+		guiButtonType =	{
+			name = "option"
+			position = { x=10 y=-1}
+			quadTextureSprite ="GFX_diplo_listbutton_2"
+			buttonFont = "vic_18"
+			buttonText = "Take Action"
+			clicksound = generic_click_01
+		}
+
+		instantTextBoxType = {
+			name = "button_text"
+			position = { x = 11 y = 4 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "UI_MISSING_TEXT"
+			maxWidth = 223
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name = "equip_icon"
+			position = { x=210 y=-3 }
+			quadTextureSprite = "GFX_equip_indicator"
 		}
 	}
 	
