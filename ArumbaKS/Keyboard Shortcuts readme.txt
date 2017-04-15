@@ -40,6 +40,7 @@ Keyboard Shortcuts:
 
 z raises levy directly from any county you have control over
 z also toggles siege interface while selecting a province or army in an enemy province.
+z also sends units to the left side of an army or ship balancing screen, each press sends the bottom listed unit left.  press and hold for rapid rebalancing
 z will 'cancel' or 'go to' on event windows (such as disband troops, or after a siege/battle has completed)
 z will go to the previous holding in demesne
 
@@ -55,6 +56,7 @@ v also will close one army at a time while having multiple armies selected. The 
 v will create a new vassal from the holding screen of minor owned baronies
 
 If you have a single army/shipgroup the "b" key will open the new unit interface (ship/army rebalancing)
+b also sends units to the right side of an army or ship balancing screen, each press sends the bottom listed unit right.  press and hold for rapid rebalancing
 b will go to the next holding in demesne
 b is also back button for the main interfaces
 
