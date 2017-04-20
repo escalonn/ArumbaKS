@@ -1708,7 +1708,7 @@ guiTypes = {
 			font = "Arial12_black"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"
-			maxWidth = 225§
+			maxWidth = 225
 			maxHeight = 20
 			fixedsize = yes
 			format = left
