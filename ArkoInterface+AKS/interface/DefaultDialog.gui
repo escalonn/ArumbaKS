@@ -812,6 +812,7 @@ guiTypes = {
 			shortcut="b"
 			quadTextureSprite = "GFX_chronicle_previous_page"
 			clicksound = turning_page
+			priority_shortcut = "<" #arkopack
 		}
 		
 		guiButtonType = {
@@ -820,6 +821,7 @@ guiTypes = {
 			shortcut="n"
 			quadTextureSprite = "GFX_chronicle_next_page"
 			clicksound = turning_page
+			priority_shortcut = ">" #arkopack
 		}
 	}
 	
@@ -1034,7 +1036,7 @@ guiTypes = {
 		iconType = {
 			name ="chronicle_picture"
 			spriteType = "GFX_evt_throne_room"
-			position = { x= 72 y = 14 }
+			position = { x= 72 y = 13 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.70
 		}	

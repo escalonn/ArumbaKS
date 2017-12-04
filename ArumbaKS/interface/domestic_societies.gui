@@ -422,6 +422,14 @@ guiTypes = {
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
 			}
+			
+			instantTextBoxType = {
+				name = "member_count"
+				position = { x = 15 y = 630 }
+				font = "vic_22"
+				text = "UI_MISSING_TEXT"
+				format = left
+			}
 		}
 	}
 	

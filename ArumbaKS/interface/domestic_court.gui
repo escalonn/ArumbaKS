@@ -297,7 +297,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"	
-			maxWidth = 350
+			maxWidth = 250
 			maxHeight = 20
 			format = left
 			fixedsize = yes
@@ -948,11 +948,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "council_regency_text"
-			position = { x = 40 y = -78 }
+			position = { x = 40 y = -68 }
 			maxWidth = 450
 			maxHeight = 192
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_22"
 			text = "UI_MISSING_TEXT"	
 			fixedsize = yes
 			format = centre
@@ -960,9 +960,9 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "council_vote_text"
-			position = { x = 40 y = -37 }
+			position = { x = 40 y = -25 }
 			maxWidth = 450
-			maxHeight = 50
+			maxHeight = 25
 			textureFile = ""
 			font = "vic_18"
 			text = ""	

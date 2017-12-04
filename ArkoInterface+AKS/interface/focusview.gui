@@ -469,6 +469,7 @@ guiTypes = {
 			position = { x = 9 y = 19 }
 			orientation = "UPPER_RIGHT"
 			shortcut = "z"
+			priority_shortcut = "ESCAPE"
 		}
 		
 		OverlappingElementsBoxType = {

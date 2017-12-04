@@ -958,7 +958,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_charview_goto_dynasty"
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
-			shortcut = "7"
+			shortcut = "8"
 		}
 		guiButtonType =	{
 			name = "button_familytree"
@@ -973,7 +973,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_charview_goto_hierarchy"	
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
-			shortcut = "8"
+			shortcut = "9"
 			pdx_tooltip = "REALM_TREE_INTERFACE_LABEL"
 		}
 		
@@ -1105,6 +1105,12 @@ guiTypes = {
 				name = "arrange_marriage"
 				position = { x=292 y=178 }
 				quadTextureSprite ="GFX_charview_arrange_marriage"	
+				clicksound = generic_click_04
+			}
+			guiButtonType = {
+				name = "toggle_marriage_ai"
+				position = { x=264 y=184 }
+				quadTextureSprite ="GFX_checkbox_default"	
 				clicksound = generic_click_04
 			}
 			iconType = {
@@ -1296,14 +1302,14 @@ guiTypes = {
 				position = { x= 394 y = 103 }
 				quadTextureSprite ="GFX_charview_quick_focus_button"
 				clicksound = generic_click_02
-				shortcut = "9"
+				shortcut = "7"
 			}
 			guiButtonType = {
 				name = "focus_button"
 				position = { x= 394 y = 103 }
 				quadTextureSprite ="GFX_icon_diplomacy"	
 				clicksound = generic_click_02
-				shortcut = "9"
+				shortcut = "7"
 			}
 			guiButtonType =	{
 				name ="cancel_plot"

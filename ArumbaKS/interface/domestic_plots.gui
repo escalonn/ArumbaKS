@@ -1158,7 +1158,7 @@ guiTypes = {
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 175
+				maxWidth = 110
 				maxHeight = 20
 				fixedsize = yes
 				format = left
@@ -1170,7 +1170,7 @@ guiTypes = {
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 115
+				maxWidth = 110
 				maxHeight = 20
 				fixedsize = yes
 				format = right

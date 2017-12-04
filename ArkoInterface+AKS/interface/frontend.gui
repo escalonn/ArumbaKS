@@ -600,6 +600,7 @@ guiTypes = {
 				delayedTooltipText = ""
 				buttonText = "FE_BACK"
 				buttonFont = "vic_18"
+				shortcut = "z"
 			}
 						
 		}
@@ -918,7 +919,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
-			text = "NEW_DLC_AVAILABLE"	
+			text = ""	
 			maxWidth = 350
 			maxHeight = 24	
 			Orientation = "UPPER_LEFT"
@@ -959,6 +960,7 @@ guiTypes = {
 					buttonText = "FE_SINGLE_PLAYER"
 					buttonFont = "vic_22"
 					clicksound = menu_click
+					shortcut = "c"
 				}
 				
 				guiButtonType = 
@@ -969,6 +971,7 @@ guiTypes = {
 					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
 					clicksound = menu_click
+					shortcut = "v"
 				}
 				
 				guiButtonType = 
@@ -1030,15 +1033,7 @@ guiTypes = {
 					clicksound = quit
 				}
 				
-				guiButtonType = 
-				{
-					name = "nudge_button"
-					position = { x = 465 y = -57 }
-					quadTextureSprite ="twitter"
-					#buttonText = "NUDGE"
-					#buttonFont = "vic_22"
-					clicksound = menu_click
-				}
+
 				
 				guiButtonType = 
 				{
@@ -1070,16 +1065,15 @@ guiTypes = {
 					quadTextureSprite ="twitter"	
 					clicksound = menu_click
 				}
-
 				guiButtonType = 
 				{
 					name = "nudge_button"
 					position = { x = 465 y = -57 }
 					quadTextureSprite ="nudge_icon"
-					#buttonText = "Nudge"
+					#buttonText = "NUDGE"
 					#buttonFont = "vic_22"
 					clicksound = menu_click
-				}				
+				}
 			}
 			
 
@@ -1198,6 +1192,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					buttonText = "FE_LOAD_GAME"
 					clicksound = character_view_click
+					shortcut = "v"
 				}				
 
 				
@@ -5153,7 +5148,15 @@ guiTypes = {
 					position = { x= 559 y = -221 }
 					Orientation = "LOWER_LEFT"
 				}
-
+				
+				iconType = 
+				{
+					name ="JD_DLC"
+					spriteType = "GFX_dlc_icon_jade_dragon"
+					position = { x= 605 y = -221 }
+					Orientation = "LOWER_LEFT"
+				}
+				
 				editBoxType = 
 				{
 					position = { x = -3 y = -41 }
@@ -5214,7 +5217,7 @@ guiTypes = {
 					clicksound = menu_click
 					pdx_tooltip = "RANDOM_CHARACTER"
 					pdx_tooltip_delayed = "RANDOM_CHARACTER_DESC"
-					
+					shortcut = "R"
 				}
 
 				guiButtonType = 
@@ -5248,6 +5251,7 @@ guiTypes = {
 					buttonFont = "vic_22"
 					Orientation = "LOWER_RIGHT"
 					clicksound = menu_click
+					shortcut = "z"
 				}			
 			}
 

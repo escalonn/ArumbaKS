@@ -594,6 +594,7 @@ guiTypes = {
 				delayedTooltipText = ""
 				buttonText = "FE_BACK"
 				buttonFont = "vic_18"
+				shortcut = "z"
 			}
 						
 		}
@@ -953,6 +954,7 @@ guiTypes = {
 					buttonText = "FE_SINGLE_PLAYER"
 					buttonFont = "vic_22"
 					clicksound = menu_click
+					shortcut = "c"
 				}
 				
 				guiButtonType = 
@@ -963,6 +965,7 @@ guiTypes = {
 					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
 					clicksound = menu_click
+					shortcut = "v"
 				}
 				
 				guiButtonType = 
@@ -1181,6 +1184,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					buttonText = "FE_LOAD_GAME"
 					clicksound = character_view_click
+					shortcut = "v"
 				}				
 
 				
@@ -5027,6 +5031,14 @@ guiTypes = {
 					Orientation = "LOWER_LEFT"
 				}
 				
+				iconType = 
+				{
+					name ="JD_DLC"
+					spriteType = "GFX_dlc_icon_jade_dragon"
+					position = { x= 472 y = -218 }
+					Orientation = "LOWER_LEFT"
+				}
+				
 				editBoxType = 
 				{
 					position = { x = 3 y = -38 }
@@ -5085,6 +5097,7 @@ guiTypes = {
 					clicksound = menu_click
 					pdx_tooltip = "RANDOM_CHARACTER"
 					pdx_tooltip_delayed = "RANDOM_CHARACTER_DESC"
+					shortcut = "R"
 				}
 
 				guiButtonType = 
@@ -5118,6 +5131,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					Orientation = "LOWER_RIGHT"
 					clicksound = menu_click
+					shortcut = "z"
 				}			
 			}
 

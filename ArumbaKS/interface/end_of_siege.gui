@@ -561,10 +561,9 @@ guiTypes = {
 		#######
 		iconType = {
 			name ="Our_unit_type_7"
-			spriteType = "GFX_unitpanel_unitstrip_small"
+			spriteType = "GFX_unitpanel_specialtroops_smallstrip"
 			position = { x= 21 y = 338 }
 			Orientation = "UPPER_LEFT"
-			frame = 7
 		}
 
 		instantTextBoxType = {

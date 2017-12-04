@@ -1047,7 +1047,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_charview_goto_dynasty"
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
-			shortcut = "7"
+			shortcut = "8"
 		}
 		guiButtonType =	{
 			name = "button_familytree"
@@ -1063,7 +1063,7 @@ guiTypes = {
 			#quadTextureSprite ="GFX_charview_goto_hierarchy"	
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
-			shortcut = "8"
+			shortcut = "9"
 			pdx_tooltip = "REALM_TREE_INTERFACE_LABEL"
 		}
 		
@@ -1141,12 +1141,12 @@ guiTypes = {
 			iconType = {
 				name ="opinion_bg_big"
 				spriteType = "GFX_opinion_bg_big"
-				position = { x= 180 y = 165 } #x-9
+				position = { x= 179 y = 165 } #x-9
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "opinion_text"
-				position = { x = 179 y = 171 } #x-9
+				position = { x = 178 y = 171 } #x-9
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1198,6 +1198,12 @@ guiTypes = {
 				name = "arrange_marriage"
 				position = { x=158 y=129 }
 				quadTextureSprite ="GFX_charview_arrange_marriage"	
+				clicksound = generic_click_04
+			}
+			guiButtonType = {
+				name = "toggle_marriage_ai"
+				position = { x=219 y=167 }
+				quadTextureSprite ="GFX_checkbox_default"	
 				clicksound = generic_click_04
 			}
 #			guiButtonType = {
@@ -1419,14 +1425,14 @@ guiTypes = {
 				position = { x= 23 y = 79 }
 				quadTextureSprite ="GFX_charview_quick_focus_button"
 				clicksound = generic_click_02
-				shortcut = "9"
+				shortcut = "7"
 			}
 			guiButtonType = {
 				name = "focus_button"
 				position = { x= 23 y = 79 }
 				quadTextureSprite ="GFX_icon_diplomacy"	
 				clicksound = generic_click_02
-				shortcut = "9"
+				shortcut = "7"
 			}
 			guiButtonType =	{
 				name ="cancel_plot"

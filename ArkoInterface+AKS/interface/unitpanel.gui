@@ -70,6 +70,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_unitpanel_select_button"
 			buttonText = ""
 			buttonFont = "vic_18"
+			shortcut = "v"
 		}
 		guiButtonType = {
 			name = "goto_location_button"
@@ -163,6 +164,7 @@ guiTypes = {
 			spriteType ="GFX_ally_order_button"
 			clicksound = generic_click_01
 			alwaystransparent = no
+			shortcut = "m"
 		}
 
 		windowType = {
@@ -744,6 +746,7 @@ guiTypes = {
 				position = { x= 375 y= 10}
 				quadTextureSprite ="GFX_unitpanel_expand_button"
 				clicksound = generic_click_04
+				shortcut = "n"
 			}
 			
 		### info LEFT flank

@@ -38,6 +38,94 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 
+		iconType = {
+			name ="rally_points_extend_details"
+			spriteType = "GFX_rally_points_extend_details"
+			position = {x = 527 y = 5 }
+		}
+		
+		guiButtonType = {
+			name = "rally_points_extend"
+			position = { x = 494 y = 5 }
+			quadTextureSprite = "GFX_rally_points_extend"
+			Orientation = "UPPER_LEFT"
+			clicksound = click
+			pdx_tooltip = "ADD_RALLY_POINT_INFO"	
+		}
+		
+		windowType = {
+			name = "rally_points_extension"   
+			backGround =""
+			position = { x =549 y=-30 }
+			size = { x =315 y=367 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			orientation = "UPPER_LEFT"
+			
+			iconType = {
+				name ="bg_rally_points_extension"
+				spriteType = "GFX_prison_bg"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				position = { x = 19 y = 15 }
+				name = "rally_point_header"
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 260
+				maxHeight = 20
+				fixedsize = yes
+				text = "UI_MISSING_TEXT"	
+				orientation = "UPPER_LEFT"
+				format = center
+			}
+			
+			instantTextBoxType = {
+				position = { x = 19 y = 40 }
+				name = "rally_point_text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 260
+				maxHeight = 60
+				fixedsize = yes
+				text = "UI_MISSING_TEXT"	
+				orientation = "UPPER_LEFT"
+				format = center
+			}
+			
+			iconType = {
+				name = "category_divider_1"
+				spriteType = "GFX_prison_divider"
+				position = { x = 19 y = 80 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			listboxType = {
+				name = "rally_point_listbox"
+				position = { x = 19 y = 85 }
+				backGround=""
+				size = { x = 265 y = 240 }
+				Orientation = "UPPER_LEFT"
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = { x = 0 y = 0 }
+			}
+			
+			guiButtonType = {
+				name ="add_rally_point"
+				quadTextureSprite = "GFX_rally_point"
+				position = { x = 140 y = 310 }
+				Orientation = "UPPER_LEFT"
+				clicksound = generic_click_04
+				pdx_tooltip = "ADD_RALLY_POINT"
+			}
+		}
+
 		instantTextBoxType = {
 			name = "headline"
 			position = { x = 219 y = -22 }
@@ -396,7 +484,7 @@ guiTypes = {
 			}
 			iconType = {
 				name ="special_troops"
-				spriteType = "GFX_unitpanel_unitstrip_big"
+				spriteType = "GFX_unitpanel_specialtroops_bigstrip"
 				position = { x= 155 y = 118 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "SPECIAL_TROOPS"
@@ -813,7 +901,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "(14)"
+				text = ""
 				maxWidth = 50
 				maxHeight = 32
 				fixedsize = yes
@@ -837,7 +925,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "(14)"
+				text = ""
 				maxWidth = 50
 				maxHeight = 32
 				fixedsize = yes
@@ -861,7 +949,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "(14)"
+				text = ""
 				maxWidth = 50
 				maxHeight = 32
 				fixedsize = yes
@@ -1501,5 +1589,46 @@ guiTypes = {
 			position = { x= 154 y = 0 }
 		}
 		
+	}
+	
+	windowType = {
+		name = "rally_point_entry"   
+		backGround =""
+		position = { x =0 y=0 }
+		size = { x =260 y=38 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "UPPER_LEFT"
+		
+		guiButtonType = {
+			name ="province_shield"
+			quadTextureSprite = "GFX_shield_medium2"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			position = { x = 45 y = 12 }
+			name = "rally_point_name"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 190
+			maxHeight = 20
+			fixedsize = yes
+			text = "UI_MISSING_TEXT"	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		guiButtonType = {
+			name ="remove_rally_point"
+			quadTextureSprite = "GFX_lobby_cust_reset"
+			position = { x = 230 y = 7 }
+			Orientation = "UPPER_LEFT"
+			clicksound = generic_click_04
+			pdx_tooltip = "REMOVE_RALLY_POINT"
+		}
 	}
 }

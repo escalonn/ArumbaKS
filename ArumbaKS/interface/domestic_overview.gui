@@ -210,7 +210,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "VASSALS"
+				text = "VASSAL_TITLES"
 				maxWidth = 140
 				maxHeight = 24	
 				format = centre
@@ -218,7 +218,7 @@ guiTypes = {
 			
 			checkboxType =	{
 				name = "filter_de_jure"
-				position = { x= 357 y=-5 }
+				position = { x= 389 y=-5 }
 				quadTextureSprite ="GFX_checkbox_default"	
 				buttonText = "DE_JURE"
 				buttonFont = "vic_18"
@@ -226,7 +226,7 @@ guiTypes = {
 				shortcut = "x"
 			}
 			instantTextBoxType = {
-				position = { x=385 y = 0 }
+				position = { x=417 y = 0 }
 				name = "label_de_jure"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -264,10 +264,9 @@ guiTypes = {
 			
 			listboxType = {
 				name ="list_vassals"
-				position = { x = 0 y = 0 }
 				backGround=""
 				position = { x=0 y=40 }
-				size = { x=468 y=207 }
+				size = { x=468 y=117 }
 				Orientation = "UPPER_LEFT"
 				spacing = 1.5
 				scrollbartype = "standardlistbox_slider"
@@ -275,6 +274,80 @@ guiTypes = {
 			}
 		}
 		
+		iconType = {
+			name ="succession_bg"
+			spriteType = "GFX_succession_list_bg"
+			position = { x = 23 y = 303 }
+		}
+		
+		# The Line of Succession
+		
+		instantTextBoxType = {
+			name = "label_vassal_listing"
+			position = { x = 204 y = 309 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "LINE_OF_SUCC_COLON"
+			maxWidth = 140
+			maxHeight = 24
+			format = center
+		}
+		
+		### HEIR
+		guiButtonType =	{
+			name ="heir_portrait"
+			quadTextureSprite = "GFX_char_75"
+			position = { x= 60 y = 313 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "CHARACTER_TOOLTIP"
+			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+		}
+		guiButtonType = {
+			name ="heir_portrait_frame"
+			quadTextureSprite = "GFX_charframe_75"
+			position = { x= 51 y = 305 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="heir_portrait_status"
+			spriteType = "GFX_overlay_char_status_75"
+			position = { x= 61 y = 309 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="heir_portrait_relation"
+			spriteType = "GFX_overlay_char_relation_75"
+			position = { x= 111 y = 309 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		OverlappingElementsBoxType = {
+			name = "succession_box"
+			position = { x = 158 y =333 }
+			size = { x=700 y=32 }
+			format = left
+			spacing = 8
+		}
+		
+		iconType =
+		{
+			name ="laws_elective_supporters_bg"
+			spriteType = "GFX_laws_elective_supporters_bg"
+			position = { x= 110 y = 367 }
+		}
+		
+		instantTextBoxType= {
+			position = { x=115 y =375}
+			name = "elective_supporters"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 20
+			maxHeight = 20
+			text = "UI_MISSING_TEXT"	
+			format = centre
+			fixedsize = yes
+		}
 		
 		# DEMESNE
 		windowType = {
@@ -330,22 +403,6 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
-			
-			### REMOVE (put into "rulername")
-			instantTextBoxType = {
-				name = "rulertitle"
-				position = { x = 9120 y = 156 }
-				textureFile = ""
-				font = "vic_18_black"
-				borderSize = {x = 0 y = 0}
-				text = "UI_MISSING_TEXT"
-				maxWidth = 128
-				maxHeight = 24	
-				fixedsize = yes
-				format = left
-			}
-			###
-				
 			instantTextBoxType = {
 				name = "rulername"
 				position = { x = 135 y = 159 }

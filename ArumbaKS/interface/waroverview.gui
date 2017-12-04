@@ -12,12 +12,25 @@ guiTypes = {
 		verticalBorder = ""
 		fullScreen = no
 		Orientation = "LOWER_RIGHT"
-
-		OverlappingElementsBoxType = {
-			name = "box"
+		
+		windowType = {
+			name = "movable_box"
+			backGround =""
 			position = { x = 0 y = 0 }
-			size = { x=1700 y=100 }
-			format = right
+			size = { x = 200 y = 100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "LOWER_RIGHT"
+			
+			OverlappingElementsBoxType = {
+				name = "box" # This contains the war icons
+				position = { x = 0 y = 0 }
+				size = { x=1700 y=100 }
+				format = right
+			}
 		}
 	}
 
