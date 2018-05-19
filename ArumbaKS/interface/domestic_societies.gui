@@ -533,9 +533,11 @@ guiTypes = {
 			name = "member_name"
 			position = { x = 40 y = 5 }
 			maxHeight = 25
+			maxWidth = 255
 			font = "vic_22"
 			format = left
 			alwaystransparent = yes
+			fixedSize=yes
 		}
 		
 		instantTextBoxType = {
