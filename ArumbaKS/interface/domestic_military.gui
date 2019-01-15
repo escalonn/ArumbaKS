@@ -182,7 +182,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "retinues_label"
-			position = { x = 40 y = 58 }
+			position = { x = 40 y = 53 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
@@ -246,6 +246,27 @@ guiTypes = {
 			spriteType = "GFX_icon_prestige_small"
 			position = { x= 124 y = 65 }
 			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "total_piety_retinues"
+			position = { x = 26 y = 65 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "UI_MISSING_TEXT"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		iconType = {
+			name ="total_piety_retinues_icon"
+			spriteType = "GFX_icon_piety"
+			position = { x= 79 y = 65 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.66
 		}
 		####
 		instantTextBoxType = {
@@ -1581,6 +1602,13 @@ guiTypes = {
 			name ="total_prestige_retinues_icon"
 			spriteType = "GFX_icon_prestige_small"
 			position = { x= 135 y = 6 }
+		}
+		
+		iconType = {
+			name ="total_piety_retinues_icon"
+			spriteType = "GFX_icon_piety"
+			position = { x= 135 y = 6 }
+			scale = 0.66
 		}
 		
 		guiButtonType = {

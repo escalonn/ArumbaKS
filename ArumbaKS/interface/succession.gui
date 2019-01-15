@@ -30,7 +30,7 @@ guiTypes = {
 			name = "dead_decorative_letter"
 			position = { x = 44 y = 258 }
 			font = "decorative"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = 0 }
 			maxWidth = 75
 			maxHeight = 75
 			format = left
@@ -54,7 +54,7 @@ guiTypes = {
 			font = "vic_22_black"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"
-			maxWidth = 293
+			maxWidth = 340
 			maxHeight = 134
 			#format = centre
 			Orientation = "UPPER_LEFT"

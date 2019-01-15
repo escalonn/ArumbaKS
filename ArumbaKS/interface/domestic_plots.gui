@@ -957,7 +957,9 @@ guiTypes = {
 			quadTextureSprite = "GFX_prisoners_extend"
 			Orientation = "UPPER_LEFT"
 			clicksound = click
-			shortcut = "x"
+			pdx_tooltip = "OPEN_MASS_ACTIONS_TOOLTIP"
+			pdx_tooltip_delayed = "OPEN_MASS_ACTIONS_TOOLTIP_DELAYED"
+
 		}
 		
 		### select plots/ambitions window
