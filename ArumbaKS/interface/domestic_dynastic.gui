@@ -1,5 +1,6 @@
 guiTypes = {
 
+	#KILL LIST VIEW
 	windowType = {
 		name = "kill_list_entry"
 		backGround =""
@@ -88,7 +89,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
-	
+	###MAIN VIEW
 	windowType = {
 		name = "dynastic_view"
 		backGround =""
@@ -107,14 +108,77 @@ guiTypes = {
 			position = { x= 0 y = -98 }
 			Orientation = "UPPER_LEFT"
 		}
+
+		iconType = {
+			name ="bg_cadres_culture"
+			spriteType = "GFX_charview_deco_culture"
+			position = { x= 0 y = -88 }
+			Orientation = "UPPER_LEFT"
+		}			
+		iconType = {
+			name ="primaires_1fond"
+			spriteType = "GFX_primaires_1fond"
+			position = { x= 30 y = 240 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType = {
+			name ="primaires_2cadre"
+			spriteType = "GFX_primaires_2cadre"
+			position = { x= 30 y = 240 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="black1"
+			spriteType = "GFX_black1"
+			position = { x= 0 y = -98 }
+			Orientation = "UPPER_LEFT"
+			}
+		iconType = {
+			name ="black2"
+			spriteType = "GFX_black2"
+			position = { x= 0 y = -98 }
+			Orientation = "UPPER_LEFT"
+			}
+#		iconType = {
+#			name ="dynashield_deco2"
+#			spriteType = "GFX_dynashield_deco2"
+#			position = { x= 344 y = 5 }
+#			}
+#		iconType = {
+#			name ="dynashield_deco"
+#			spriteType = "GFX_dynashield_deco"
+#			position = { x= 198 y = -11 }
+#			}
+#		iconType = {
+#			name ="bg_cadres_charview"
+#			spriteType = "GFX_bg_cadres_charview"
+#			position = { x= 0 y = -98 }
+#			Orientation = "UPPER_LEFT"
+#		}
+		iconType = {
+			name ="dynashield_label"
+			spriteType = "GFX_dynashield_label"
+			position = { x= 180 y = -14 }
+			}
+				
+#		iconType ={
+#			name ="repover_charview_1"
+#			spriteType = "GFX_repover_charview_1"
+#			position = { x= 9 y = 357 }
+#		}
+		iconType = {
+			name ="charview_actions_arkopack"
+			spriteType = "GFX_charview_actions_arkopack"
+			position = { x= 0 y = 37 }
+			}	
 	
 		### KILL LIST
 		windowType = {
 			name = "kill_list_window"
 			backGround =""
-			position = { x = 548 y = 3 }
-			size = { x = 392 y = 653  }
-			moveable = 0
+			position = { x = 586 y = 33 }
+			size = { x = 397 y = 651  }
+			moveable = 0 #doesn't work
 			dontRender = ""
 			horizontalBorder = "0"
 			verticalBorder = ""
@@ -123,6 +187,7 @@ guiTypes = {
 			iconType = {
 				name = "kill_list_window_bg"
 				spriteType = "GFX_societies_window_bg"
+				#spriteType = "GFX_kill_list_bg"
 				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
@@ -190,7 +255,7 @@ guiTypes = {
 		windowType = {
 			name = "liege_info"
 			backGround =""
-			position = { x=150 y=0 }
+			position = { x=393 y=52 }
 			size = { x=300 y=200 }
 			moveable = 0
 			dontRender = ""
@@ -198,11 +263,18 @@ guiTypes = {
 			verticalBorder = ""
 			fullScreen = no
 			Orientation = "UPPER_LEFT"
+
+			iconType = {
+				name ="liege_opinion_bg"
+				spriteType = "GFX_opinion_bg_rond"
+				position = { x= 138 y = 20 }
+				Orientation = "UPPER_LEFT"
+			}	
 			
 			guiButtonType =	{
 				name ="liege_portrait"
 				quadTextureSprite= "GFX_char_50"
-				position = { x= 92 y = 12 }
+				position = { x= 92 y = 13 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
 				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -210,52 +282,52 @@ guiTypes = {
 			iconType = {
 				name ="liege_portrait_favor_indicator"
 				quadTextureSprite = "GFX_overlay_char_favor_indicator_small"
-				position = { x = 100 y = 14 }
+				position = { x = 100 y = 15 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_FAVOR_INDICATOR_TOOLTIP"
 			}
 			guiButtonType = {
 				name ="liege_portrait_frame"
 				quadTextureSprite = "GFX_charframe_50"
-				position = { x= 86 y = 5 }
+				position = { x= 86 y = 6 }
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
 				name ="liege_portrait_dead"
 				quadTextureSprite = "GFX_overlay_char_dead_small"
-				position = { x= 133 y = 36 }
+				position = { x= 133 y = 35 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_DEAD_TOOLTIP"
 			}
 			iconType = {
 				name ="liege_portrait_powerful"
 				quadTextureSprite = "GFX_overlay_char_powerful_small"
-				position = { x= 133 y = 36 }
+				position = { x= 130 y = 37 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_POWERFUL_TOOLTIP"
 			}
 			iconType = {
 				name ="liege_portrait_relation"
 				spriteType = "GFX_overlay_char_relation_50"
-				position = { x= 128 y = 13 }
+				position = { x= 130 y = 14 }
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
 				name ="liege_portrait_status"
 				spriteType = "GFX_overlay_char_status_50"
-				position = { x= 92 y = 2 }
+				position = { x= 92 y = 3 }
 				Orientation = "UPPER_LEFT"
 			}
-			
-			iconType = {
-				name ="liege_opinion_bg"
-				spriteType = "GFX_opinion_bg"
-				position = { x= 147 y = -2 }
-				Orientation = "UPPER_LEFT"
-			}
+			#moved behind the portrait stuff
+			#iconType = {
+			#	name ="liege_opinion_bg"
+			#	spriteType = "GFX_opinion_bg_rond"
+			#	position = { x= 138 y = 20 }
+			#	Orientation = "UPPER_LEFT"
+			#}
 			instantTextBoxType = {
 				name = "liege_opinion"
-				position = { x= 139 y = 4 }
+				position = { x= 131 y = 27 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -266,35 +338,35 @@ guiTypes = {
 				format = centre
 			}
 			
-			iconType = {
-				name ="liege_opinion_2_bg"
-				spriteType = "GFX_opinion_bg"
-				position = { x = 147 y = 18 }
-				Orientation = "UPPER_LEFT"
-			}
+#			iconType = {
+#				name ="liege_opinion_2_bg"
+#				spriteType = "GFX_opinion_bg"
+#				position = { x = 131 y = 17 }
+#				Orientation = "UPPER_LEFT"
+#			}
 			instantTextBoxType = {
 				name = "liege_opinion_2"
-				position = { x = 139 y = 26 }
+				position = { x = 131 y = 38 }
 				textureFile = ""
 				font = "Arial12"
-				borderSize = {x = 0 y = -2}
+				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
 				maxWidth = 50
 				maxHeight = 18
 				fixedsize = yes
 				format = centre
 			}
-			
+
 			iconType =
-			{
+			 {
 				name ="liege_label_bg"
-				spriteType = "GFX_charview_label_bg"
-				position = { x= 74 y = 50 }
+				spriteType = "GFX_charview_label_bg_alt"
+				position = { x= 74 y = 58 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "liege_label"
-				position = { x = 78 y = 57 }
+				position = { x = 78 y = 65 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -306,33 +378,33 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
-			OverlappingElementsBoxType = {
+			OverlappingElementsBoxType = { #NEW 3.0
 				name = "suzerain_box"
 				position = { x = 68 y = 32 }
 				size = { x=109 y=32 }
 				format = left
 			}
-			
 			guiButtonType = {
 				name ="liege_shield"
-				quadTextureSprite = "GFX_shield_medium2"
-				position = { x= 57 y = 17 }
+				quadTextureSprite = "GFX_shield_medium"
+				position = { x= 106 y = -40 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="liege_crown"
-				spriteType = "GFX_shield_crown_strip_medium2"
-				position = { x= 67 y = 1 }
+				spriteType = "GFX_shield_crown_strip_medium"
+				position = { x= 118 y = -64 }
 				Orientation = "UPPER_LEFT"
 			}
 		}
+
 		
 		### BARBER
 		windowType = {
 			name = "barber"
 			backGround = "background"
-			position = { x=600 y=200 }
+			position = { x=650 y=150 }
 			size = { x=300 y=300 }
 			moveable = 1
 			dontRender = ""
@@ -423,7 +495,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_standard_button_112"
 				buttonText = "CUT"
 				buttonFont = "vic_18"
-				clicksound = generic_click_04
+				clicksound = land_battle_sword_4
 			}
 			guiButtonType = {
 				name = "decline"
@@ -439,7 +511,7 @@ guiTypes = {
 		windowType = {
 			name = "heir_info"
 			backGround =""
-			position = { x=-13 y=160 }
+			position = { x=-32 y=158 }
 			size = { x=300 y=200 }
 			moveable = 0
 			dontRender = ""
@@ -451,7 +523,7 @@ guiTypes = {
 			guiButtonType =	{
 				name ="heir_portrait"
 				quadTextureSprite= "GFX_char_50"
-				position = { x= 92 y = 12 }
+				position = { x= 93 y = 12 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
 				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -465,7 +537,7 @@ guiTypes = {
 			iconType =
 			{
 				name ="heir_label_bg"
-				spriteType = "GFX_charview_label_bg"
+				spriteType = "GFX_charview_label_bg_alt"
 				position = { x= 74 y = 50 }
 				Orientation = "UPPER_LEFT"
 			}
@@ -488,7 +560,7 @@ guiTypes = {
 		windowType = {
 			name = "regent_info"
 			backGround =""
-			position = { x=71 y=160 }
+			position = { x=255 y=52 }
 			size = { x=300 y=200 }
 			moveable = 0
 			dontRender = ""
@@ -500,7 +572,7 @@ guiTypes = {
 			guiButtonType =	{
 				name ="regent_portrait"
 				quadTextureSprite= "GFX_char_50"
-				position = { x= 92 y = 12 }
+				position = { x= 92 y = 13 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
 				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -508,19 +580,19 @@ guiTypes = {
 			guiButtonType = {
 				name ="regent_portrait_frame"
 				quadTextureSprite = "GFX_charframe_50"
-				position = { x= 86 y = 5 }
+				position = { x= 86 y = 6 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="regent_label_bg"
-				spriteType = "GFX_charview_label_bg"
-				position = { x= 74 y = 50 }
+				spriteType = "GFX_charview_label_bg_alt"
+				position = { x= 74 y = 58 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "regent_label"
-				position = { x = 78 y = 57 }
+				position = { x = 78 y = 65 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -533,98 +605,99 @@ guiTypes = {
 			}
 		}
 
+
+
 		##### tabs
-		
 		guiButtonType =	{
 			name = "tab_1"
-			position = { x=11 y=349 }
+			position = { x=11 y=371 }
 			quadTextureSprite ="GFX_charview_tab"	
 			Orientation = "UPPER_LEFT"
-			clicksound = character_view_click
-			scale = 0.83
+			clicksound = choose_country_1
+			#scale = 0.8
 			shortcut = "1"
 		}
 		guiButtonType =	{
 			name = "tab_6"
-			position = { x=99 y=349 }
+			position = { x=105 y=371 }
 			quadTextureSprite ="GFX_charview_tab"	
 			Orientation = "UPPER_LEFT"
-			clicksound = character_view_click
-			scale = 0.83
+			clicksound = choose_country_4
+			#scale = 0.8
 			shortcut = "2"
 		}		
 		guiButtonType =	{
 			name = "tab_2"
-			position = { x=187 y=349 }
+			position = { x=199 y=371 }
 			quadTextureSprite ="GFX_charview_tab"	
 			Orientation = "UPPER_LEFT"
-			clicksound = character_view_click
-			scale = 0.83
+			clicksound = choose_country_5
+			#scale = 0.87
 			shortcut = "3"
 		}
 		guiButtonType =	{
 			name = "tab_3"
-			position = { x=275 y=349 }
+			position = { x=292 y=371 }
 			quadTextureSprite ="GFX_charview_tab"	
 			Orientation = "UPPER_LEFT"
-			clicksound = character_view_click
-			scale = 0.83
+			clicksound = choose_country_6
+			#scale = 0.87
 			shortcut = "4"
 		}
 		guiButtonType =	{
 			name = "tab_4"
-			position = { x=363 y=349 }
+			position = { x=386 y=371 }
 			quadTextureSprite ="GFX_charview_tab"	
 			Orientation = "UPPER_LEFT"
-			clicksound = character_view_click
-			scale = 0.83
+			clicksound = choose_country_7
+			#scale = 0.87
 			shortcut = "5"
 		}
 		guiButtonType =	{
 			name = "tab_5"
-			position = { x=451 y=349 }
+			position = { x=480 y=371 }
 			quadTextureSprite ="GFX_charview_tab"	
 			Orientation = "UPPER_LEFT"
-			clicksound = character_view_click
-			scale = 0.83
+			clicksound = choose_country_8
+			#scale = 0.87
 			shortcut = "6"
 		}
 		###
 		instantTextBoxType = {
 			name = "family_text"
-			position = { x = 14 y = 355 }
+			position = { x = 16 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CHARVIEW_FAMILY"
-			maxWidth = 80
+			maxWidth = 84
 			maxHeight = 24
-			format = centre
+			format = center #ex left
 			fixedsize = yes
-			format = center
+			#format = left
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "relations_text"
-			position = { x = 102 y = 355 }
+			position = { x = 110 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CHARVIEW_RELATIONS"
-			maxWidth = 80
+			maxWidth = 84
 			maxHeight = 24
-			format = centre
+			format = center #ex left
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "vassals_text"
-			position = { x = 195 y = 355 }
+			position = { x = 206 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "VASSALS"
-			maxWidth = 70
+			maxWidth = 84
 			maxHeight = 24
 			format = left
 			fixedsize = yes
@@ -632,12 +705,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "vassals_nr"
-			position = { x = 227 y = 355 }
+			position = { x = 201 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"
-			maxWidth = 40
+			maxWidth = 84
 			maxHeight = 24
 			format = right
 			fixedsize = yes
@@ -645,12 +718,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "courtiers_text"
-			position = { x = 284 y = 355 }
+			position = { x = 299 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "COURT_TAB"
-			maxWidth = 70
+			maxWidth = 84
 			maxHeight = 24
 			format = left
 			fixedsize = yes
@@ -658,12 +731,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "courtiers_nr"
-			position = { x = 315 y = 355 }
+			position = { x = 294 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"
-			maxWidth = 40
+			maxWidth = 84
 			maxHeight = 24
 			format = right
 			fixedsize = yes
@@ -671,25 +744,25 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "pacts_text"
-			position = { x = 372 y = 355 }
+			position = { x = 393 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "PACTS"
-			maxWidth = 70
+			maxWidth = 84
 			maxHeight = 24
 			format = left
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			name = "pacts_nr" 
-			position = { x = 402 y = 355 }
+			name = "pacts_nr"
+			position = { x = 388 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"
-			maxWidth = 40
+			maxWidth = 84
 			maxHeight = 24
 			format = right
 			fixedsize = yes
@@ -697,12 +770,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "abroad_text"
-			position = { x = 459 y = 355 }
+			position = { x = 485 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CHARVIEW_ABROAD"
-			maxWidth = 70
+			maxWidth = 84
 			maxHeight = 24
 			format = left
 			fixedsize = yes
@@ -710,32 +783,32 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "abroad_nr" 
-			position = { x = 491 y = 355 }
+			position = { x = 484 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UI_MISSING_TEXT"
-			maxWidth = 40
+			maxWidth = 84
 			maxHeight = 24
 			format = right
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 		}
-		###
+		###	
 
 		
 		### sorts
 		guiButtonType =	{
 			name = "sort_tier"
-			position = { x=39 y=381 }
-			quadTextureSprite ="GFX_sort_88"	
+			position = { x=47 y=422 }
+			quadTextureSprite ="GFX_sort_112"	
 			buttonText = "TIER"
 			buttonFont = "vic_18_black"
 			Orientation = "UPPER_LEFT"
 		}
 		guiButtonType =	{
 			name = "sort_name"
-			position = { x=126 y=381 }
+			position = { x=160 y=422 }
 			quadTextureSprite ="GFX_sort_188"	
 			buttonText = "CHAR_NAME"
 			buttonFont = "vic_18_black"
@@ -743,39 +816,40 @@ guiTypes = {
 		}
 		guiButtonType =	{
 			name = "sort_tax"
-			position = { x=312 y=381 }
-			quadTextureSprite ="GFX_sort_88"	
+			position = { x=348 y=422 }
+			quadTextureSprite ="GFX_sort_116"	
 			buttonText = "CHAR_TAX"
 			buttonFont = "vic_18_black"
 			Orientation = "UPPER_LEFT"
 		}
 		guiButtonType =	{
 			name = "sort_opinion"
-			position = { x=398 y=381 }
-			quadTextureSprite ="GFX_sort_112"	
+			position = { x=463 y=422 }
+			quadTextureSprite ="GFX_sort_76"	
 			buttonText = "OPINION"
 			buttonFont = "vic_18_black"
 			Orientation = "UPPER_LEFT"
 		}
-		
+		### VASSAL TAB WINDOW
 		listboxType = 
 		{
 			name = "vassal_listbox"
-			position = { x=22 y = 410 }
+			position = { x=41 y = 446 }
 			backGround=""
-			size = { x = 491 y = 244 }
+			size = { x = 500 y = 244 }
 			Orientation = "UPPER_LEFT"
-			spacing = 1
+			spacing = -1
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 10 y = 10}
+			offset = { x=-1 y=-3 }
+			borderSize = {x = 10 y = 20}
 		}
 		
 		### FAMILY TAB WINDOW
 		windowType = {
 			name = "char_family_window"
 			backGround =""
-			position = { x=19 y=377 }
-			size = { x=300 y=200 }
+			position = { x=0 y=403 }
+			size = { x=600 y=283 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -787,37 +861,37 @@ guiTypes = {
 			{
 				name ="charview_family_bg"
 				spriteType = "GFX_charview_family_bg"
-				position = { x= -9 y = 1 }
+				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="charview_family_bg_2"
 				spriteType = "GFX_charview_family_bg_2"
-				position = { x= -9 y = 1 }
+				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}			
 			iconType =
 			{
 				name ="repover_charview_1"
 				spriteType = "GFX_repover_charview_1"
-				position = { x= 6 y = 5 }
+				position = { x= 0 y = 0 }
 			}	
 			iconType =
 			{
 				name ="repover_charview_3"
 				spriteType = "GFX_repover_charview_3"
-				position = { x= 6 y = 5 }
+				position = { x= 0 y = 0 }
 			}			
 			
 			instantTextBoxType = {
 				name = "parents_text"
-				position = { x = 18 y = 10 }
+				position = { x = 21 y = 19 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_PARENTS"
-				maxWidth = 150
+				maxWidth = 181
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -825,12 +899,12 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "grandparents_text"
-				position = { x = 193 y = 10 }
+				position = { x = 195 y = 19 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_GRANDPARENTS"
-				maxWidth = 150
+				maxWidth = 195
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -838,12 +912,12 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "guardian_text"
-				position = { x = 375 y = 10 }
+				position = { x = 376 y = 19 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_GUARDIAN"
-				maxWidth = 115
+				maxWidth = 195
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -852,12 +926,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "children_text"
-				position = { x = 105 y = 102 }
+				position = { x = 0 y = 114 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_CHILDREN"
-				maxWidth = 300
+				maxWidth = 586
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -866,12 +940,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "siblings_text"
-				position = { x = 32 y = 194 }
+				position = { x = 15 y = 207 } #non christians
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_SIBLINGS"
-				maxWidth = 250
+				maxWidth = 335
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -880,12 +954,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "siblings_text2"
-				position = { x = 105 y = 194 }
+				position = { x = 0 y = 207 } #christians
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_SIBLINGS"
-				maxWidth = 300
+				maxWidth = 587
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -894,12 +968,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "spouses_text"
-				position = { x = 328 y = 194 }
+				position = { x = 345 y = 207 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_FORMER_WIVES"
-				maxWidth = 150
+				maxWidth = 220
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -908,58 +982,58 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 					name = "parents"
-					position = { x = 26 y = 35 }
-					size = { x=158 y=64 }
+					position = { x = 25 y = 44 }
+					size = { x=177 y=64 }
 					Orientation = "UPPER_LEFT"
 					format = center
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
 					name = "grandparents"
-					position = { x = 160 y = 35 }
-					size = { x=216 y=64 }
+					position = { x = 200 y = 44 }
+					size = { x=181 y=64 }
 					Orientation = "UPPER_LEFT"
 					format = center
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
 					name = "guardian"
-					position = { x = 340 y = 35 }
-					size = { x=200 y=64 }
+					position = { x = 392 y = 44 }
+					size = { x=177 y=64 }
+					Orientation = "UPPER_LEFT"
+					format = right
+					spacing = 0
+				}
+			OverlappingElementsBoxType = {
+					name = "children"
+					position = { x = 30 y = 139 }
+					size = { x=527 y=64 }
 					Orientation = "UPPER_LEFT"
 					format = center
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
-					name = "children"
-					position = { x = 31 y = 127 }
-					size = { x=450 y=64 }
-					Orientation = "UPPER_LEFT"
-					format = left
-					spacing = 0
-				}
-			OverlappingElementsBoxType = {
 					name = "siblings"
-					position = { x = 31 y = 219 }
-					size = { x=265 y=64 }
+					position = { x = 25 y = 232 }
+					size = { x=305 y=64 }
 					Orientation = "UPPER_LEFT"
 					format = left
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
 					name = "siblings2"
-					position = { x = 31 y = 219 }
-					size = { x=450 y=64 }
+					position = { x = 30 y = 232 }
+					size = { x=527 y=64 }
 					Orientation = "UPPER_LEFT"
-					format = left
+					format = center
 					spacing = 0
 				}				
 			OverlappingElementsBoxType = {
 					name = "spouses"
-					position = { x = 320 y = 219 }
-					size = { x=175 y=64 }
+					position = { x = 353 y = 232 }
+					size = { x=220 y=64 }
 					Orientation = "UPPER_LEFT"
-					format = left
+					format = center
 					spacing = 0
 				}
 		}
@@ -968,8 +1042,8 @@ guiTypes = {
 		windowType = {
 			name = "char_relations_window"
 			backGround =""
-			position = { x=19 y=377 }
-			size = { x=300 y=200 }
+			position = { x=0 y=403 }
+			size = { x=600 y=283 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -981,24 +1055,24 @@ guiTypes = {
 			{
 				name ="charview_relations_bg"
 				spriteType = "GFX_charview_relations_bg"
-				position = { x= -9 y = 1 }
+				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="repover_charview_2"
 				spriteType = "GFX_repover_charview_2"
-				position = { x= 6 y = 5 }
+				position = { x= 0 y = 0 }
 			}
 			
 			instantTextBoxType = {
 				name = "friends_text"
-				position = { x = 105 y = 10 }
+				position = { x = 35 y = 20 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_FRIENDS"
-				maxWidth = 300
+				maxWidth = 272
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -1007,12 +1081,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "rivals_text"
-				position = { x = 105 y = 102 }
+				position = { x = 310 y = 20 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_RIVALS"
-				maxWidth = 300
+				maxWidth = 272
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -1021,12 +1095,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "in_laws_text"
-				position = { x = 32 y = 194 }
+				position = { x = 0 y = 114 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_IN_LAWS"
-				maxWidth = 250
+				maxWidth = 587
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -1035,12 +1109,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "lovers_text"
-				position = { x = 328 y = 194 }
+				position = { x = 0 y = 208 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FAM_LOVER"
-				maxWidth = 150
+				maxWidth = 587
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
@@ -1049,100 +1123,102 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 					name = "friends"
-					position = { x = 31 y = 35 }
-					size = { x=490 y=64 }
+					position = { x = 25 y = 44 }
+					size = { x=272 y=64 }
 					Orientation = "UPPER_LEFT"
-					format = left
+					format = right
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
 					name = "rivals"
-					position = { x = 31 y = 127 }
-					size = { x=490 y=64 }
+					position = { x = 297 y = 44 }
+					size = { x=272 y=64 }
 					Orientation = "UPPER_LEFT"
 					format = left
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
 					name = "in_laws"
-					position = { x = 31 y = 219 }
-					size = { x=265 y=64 }
+					position = { x = 20 y = 139 }
+					size = { x=527 y=64 }
 					Orientation = "UPPER_LEFT"
-					format = left
+					format = center
 					spacing = 0
 				}
 			OverlappingElementsBoxType = {
 					name = "lovers"
-					position = { x = 320 y = 219 }
-					size = { x=175 y=64 }
+					position = { x = 20 y = 232 }
+					size = { x=527 y=64 }
 					Orientation = "UPPER_LEFT"
-					format = left
+					format = center
 					spacing = 0
 				}
-		}		
+		}	
+	
 		
-		###########
+		########### INDEP
 		
 		guiButtonType =	{
 			name = "button_close"
-			position = { x=515 y=-84 }
+			position = { x=516 y=-84 }
 			quadTextureSprite ="GFX_main_close_button"	
 			Orientation = "UPPER_LEFT"
 			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE"
 		}
-		
 		guiButtonType =	{
 			name = "button_wikipedia"
-			position = { x=507 y=-39 }
-			quadTextureSprite ="GFX_charview_wikipedia_link"	
+			position = { x=4 y=63}#sidebutton position
+			quadTextureSprite ="GFX_charview_wikipedia_link"		
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
 		}
-		
+
 		guiButtonType =	{
 			name = "button_rename"
-			position = { x=508 y=-38 }
-			quadTextureSprite ="GFX_small_rename_button"	
+			position = { x=516 y=-42 }
+			quadTextureSprite ="GFX_small_rename_button"
+	
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
 			pdx_tooltip = "CHARVIEW_BUTTON_RENAME"
 			pdx_tooltip_delayed = "CHARVIEW_BUTTON_RENAME_DELAYED"
 			shortcut = "8"
 		}
-		
+
 		guiButtonType =	{
 			name = "button_familytree"
-			position = { x= 341 y = 78 }
+			position = { x= 179 y = 22 }
 			quadTextureSprite ="GFX_charview_goto_family"	
 			Orientation = "UPPER_LEFT"
-			clicksound = generic_click_04
+			clicksound = choose_country_2
 		}
 		guiButtonType =	{
 			name = "button_realmtree"
-			position = { x= 403 y = 78 }
-			quadTextureSprite ="GFX_charview_goto_hierarchy"	
+			position = { x= 341 y = -6 }
+			quadTextureSprite ="GFX_the_realm_ARKO"
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
 			shortcut = "9"
 			pdx_tooltip = "REALM_TREE_INTERFACE_LABEL"
 		}
+
 		
 		guiButtonType = {
 			name ="button_treasury"
-			quadTextureSprite= "GFX_treasury_button"
-			position = { x = 342 y = 176 }
+			quadTextureSprite= "GFX_treasury_button_arkopack"
+			position = { x = 585 y =-30 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "TREASURY_BUTTON_TOOLTIP"
 			pdx_tooltip_delayed = "TREASURY_BUTTON_TOOLTIP_DELAYED"
-			clicksound = generic_click_04
+			#clicksound = generic_click_04
 			shortcut = "7"
 		}
 		
 		guiButtonType = {
 			name = "button_bloodlines"
-			position = { x= 373 y = 176 }
-			quadTextureSprite= "GFX_bloodlines_button"
+			position = { x= 585 y = -80 }
+			quadTextureSprite= "GFX_bloodlines_sidebutton"
 			Orientation = "UPPER_LEFT"
 			clicksound = click_bloodline_view
 			pdx_tooltip = "BLOODLINES_INTERFACE_LABEL"
@@ -1150,9 +1226,9 @@ guiTypes = {
 		}
 		
 		guiButtonType =	{
-			name ="kill_list"
+			name ="kill_list" #AKA kill_list_button
 			quadTextureSprite= "GFX_kill_list"
-			position = { x= 404 y = 176 }
+			position = { x= 585 y = 20 }
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
 			clicksound = click_kill_list
@@ -1162,58 +1238,58 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "barber_button"
-			position = { x = 342 y = 211 }
+			position = { x=5 y=96 }
 			quadTextureSprite = "GFX_customization_barber_button"
 			clicksound = generic_click_02
 			pdx_tooltip = "BARBER_TOOLTIP"
 			pdx_tooltip_delayed = "BARBER_TOOLTIP_DELAYED"
 		}
 		
-		guiButtonType = {
-			name = "quick_plot_button"
-			position = { x=404 y=211 }
-			quadTextureSprite ="GFX_charview_quick_plot_button"
-			clicksound = generic_click_02
-		}
+#		guiButtonType = {#moved forward for visibility
+#			name = "quick_plot_button"
+#			position = { x=130 y=188 }#arkopack 26
+#			quadTextureSprite ="GFX_charview_quick_plot_button"
+#			clicksound = generic_click_02
+#		}
 		
 		guiButtonType = {
 			name = "appease_button"
-			position = { x=342 y=211 }
+			position = { x=5 y=96 }
 			quadTextureSprite ="GFX_charview_appease"
 			clicksound = generic_click_02
 		}
 		guiButtonType = {
 			name = "stop_appease_button"
-			position = { x=342 y=211 }
+			position = { x=5 y=96 }
 			quadTextureSprite ="GFX_charview_stop_appease"
 			clicksound = generic_click_02
 		}
 		
 		guiButtonType = {
 			name = "antagonize_button"
-			position = { x=373 y=211 }
+			position = { x=5 y=128 }
 			quadTextureSprite ="GFX_charview_antagonize"
 			clicksound = generic_click_02
 		}
 		guiButtonType = {
 			name = "stop_antagonize_button"
-			position = { x=373 y=211 }
+			position = { x=5 y=128 }
 			quadTextureSprite ="GFX_charview_stop_antagonize"
 			clicksound = generic_click_02
 		}
 		
-		guiButtonType =	{
-			name ="toggle_forbidden_to_lead_armies"
-			quadTextureSprite ="GFX_toggle_allow_as_leader"
-			position = { x= 372 y = 210 }
-			clicksound = generic_click_01
-		}
-		
-		### Character Info
+#		guiButtonType =	{ #moved forward for visibility
+#			name ="toggle_forbidden_to_lead_armies"
+#			quadTextureSprite ="GFX_toggle_allow_as_leader"
+#			position = { x= 133 y = 189 }
+#			clicksound = generic_click_01
+#		}
+
+		### Character Info ARKO
 		windowType = {
 			name = "character_info"
 			backGround =""
-			position = { x=0 y=30 }	
+			position = { x=10 y=45 }	#
 			size = { x=240 y=512 }
 			moveable = 0
 			dontRender = ""
@@ -1221,46 +1297,61 @@ guiTypes = {
 			verticalBorder = ""
 			fullScreen = no
 			Orientation = "UPPER_LEFT"
-		
+
+			iconType = { #put as backward as possible (favor issue)
+				name ="icon_modifiers"
+				spriteType = "GFX_charview_modifiers"
+				position = { x= 50 y = 275 }
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "CHARVIEW_MODIFIERS"
+				pdx_tooltip_delayed = "MODIFIERS_TOOLTIP_DELAYED"
+			}
+			
 			guiButtonType =	{
 				name ="character_portrait"
 				quadTextureSprite= "GFX_char_150"
-				position = { x= 76 y = 7 }
+				position = { x= 51 y = 7 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
 				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			iconType = {
 				name ="character_portrait_favor_indicator"
-				quadTextureSprite = "GFX_overlay_char_favor_indicator"
-				position = { x = 100 y = 13 }
+				quadTextureSprite = "GFX_overlay_char_favor_indicator_small_arkopack"
+				position = { x = 50 y = 278 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_FAVOR_INDICATOR_TOOLTIP"
 			}
 			guiButtonType = {
 				name ="character_portrait_frame"
 				quadTextureSprite = "GFX_charframe_150"
-				position = { x= 64 y = -6 }
+				position = { x= 39 y = -6 }
 				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {#arkopack moved up
+				name = "arrange_marriage"
+				position = { x=158 y=129 }
+				quadTextureSprite ="GFX_charview_arrange_marriage"	
+				clicksound = generic_click_04
 			}
 			guiButtonType = {
 				name ="character_portrait_dead"
 				quadTextureSprite = "GFX_overlay_char_dead"
-				position = { x = 186 y = 133 }
+				position = { x = 157 y = 128 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_DEAD_TOOLTIP"
 			}
 			iconType = {
 				name ="character_portrait_powerful"
 				quadTextureSprite = "GFX_overlay_char_powerful"
-				position = { x = 186 y = 133 }
+				position = { x = 161 y = 133 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_POWERFUL_TOOLTIP"
 			}
 			guiButtonType = {
 				name = "character_designate_heir_button"
 				quadTextureSprite = "GFX_overlay_char_designate_heir"
-				position = { x=195 y=18 }
+				position = { x=145 y=-4 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "DESIGNATE_SUCCESSOR"
 				pdx_tooltip_delayed = "title_designated_heir_desc"
@@ -1268,25 +1359,25 @@ guiTypes = {
 			iconType = {
 				name = "character_portrait_relation"
 				spriteType = "GFX_overlay_char_relation_150"
-				position = { x=195 y = 18 }
+				position = { x=170 y = 18 }
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
 				name = "character_portrait_status"
 				spriteType = "GFX_overlay_char_status_150"
-				position = { x=78 y = 18 }
+				position = { x=85 y = -6 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name ="opinion_bg_big"
 				spriteType = "GFX_opinion_bg_big"
-				position = { x= 231 y = 179 }
+				position = { x= 179 y = 165 } #x-9
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "opinion_text"
-				position = { x = 230 y = 185 }
+				position = { x = 178 y = 171 } #x-9
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1298,9 +1389,9 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="character_shield"
+				name ="character_shield" #BIG
 				quadTextureSprite = "GFX_shield_big"
-				position = { x= -15 y = 40 }
+				position = { x= 368 y = -46 }
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -1308,14 +1399,14 @@ guiTypes = {
 			{
 				name ="character_crown"
 				spriteType = "GFX_shield_crown_strip_big"
-				position = { x= 17 y = 11 }
+				position = { x= 401 y = -74 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			guiButtonType =	{
 				name ="spouse_portrait"
 				quadTextureSprite = "GFX_char_100"
-				position = { x= 218 y = 55 }
+				position = { x= 198 y = 51 } 
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
 				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -1323,62 +1414,57 @@ guiTypes = {
 			iconType = {
 				name ="spouse_portrait_favor_indicator"
 				quadTextureSprite = "GFX_overlay_char_favor_indicator"
-				position = { x = 235 y = 55 }
+				position = { x = 252 y = 51 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_FAVOR_INDICATOR_TOOLTIP"
 			}
 			guiButtonType = {
 				name ="spouse_portrait_frame"
 				quadTextureSprite = "GFX_charframe_100"
-				position = { x= 210 y = 46 }
+				position = { x= 190 y = 42 }
 				Orientation = "UPPER_LEFT"
 			}
-			guiButtonType = {
-				name = "arrange_marriage"
-				position = { x=298 y=176 }
-				quadTextureSprite ="GFX_charview_arrange_marriage"	
-				clicksound = generic_click_04
-			}
+
 			guiButtonType = {
 				name = "toggle_marriage_ai"
-				position = { x=272 y=182 }
+				position = { x=219 y=167 }
 				quadTextureSprite ="GFX_checkbox_default"	
 				clicksound = generic_click_04
 			}
 			iconType = {
 				name ="spouse_label_bg"
 				spriteType = "GFX_charview_label_bg2"
-				position = { x= 214 y = 140 }
+				position = { x= 194 y = 136 }
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
 				name = "prev_spouse_button"
-				position = { x= 219 y = 123 }
+				position = { x= 199 y = 119 }
 				quadTextureSprite = "GFX_charview_wife_prev"
 				clicksound = generic_click_04
 			}
 			guiButtonType = {
 				name = "next_spouse_button"
-				position = { x= 297 y = 123 }
+				position = { x= 277 y = 119 }
 				quadTextureSprite = "GFX_charview_wife_next"
 				clicksound = generic_click_04
 			}
 			iconType = {
 				name ="marriage_type_icon"
 				spriteType = "GFX_charview_marriage_type_icon"
-				position = { x= 217 y = 143 }
+				position = { x= 197 y = 139 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="spouse_portrait_powerful"
 				quadTextureSprite = "GFX_overlay_char_powerful"
-				position = { x = 298 y = 120 }
+				position = { x = 277 y = 136 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_POWERFUL_TOOLTIP"
 			}
 			instantTextBoxType = {
 				name = "spouse_text"
-				position = { x = 222 y = 147 }
+				position = { x = 202 y = 143 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1392,178 +1478,195 @@ guiTypes = {
  			guiButtonType = {
 				name ="spouse_portrait_dead"
 				quadTextureSprite = "GFX_overlay_char_dead"
-				position = { x = 297 y = 140 }
+				position = { x = 277 y = 136 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_DEAD_TOOLTIP"
 			}
 			iconType = {
 				name ="spouse_portrait_relation"
 				spriteType = "GFX_overlay_char_relation_100"
-				position = { x= 295 y = 63 }
+				position = { x= 274 y = 59 }
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
 				name ="spouse_portrait_status"
 				spriteType = "GFX_overlay_char_status_100"
-				position = { x= 214 y = 63 }
+				position = { x= 190 y = 59 }
 				Orientation = "UPPER_LEFT"
 			}
+			#END SPOUSE
+			
 			instantTextBoxType = {
 				name = "name"
-				position = { x =143 y = -63 }
+				position = { x =130 y = -83 }
 				textureFile = ""
 				font = "vic_22_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"	
-				maxWidth = 335
-				maxHeight = 22	
+				maxWidth = 355
+				maxHeight = 24	
 				fixedsize = yes
 				format = left
 			}
 			instantTextBoxType = {
 				name = "born"
-				position = { x = 463 y = -63 }
+				position = { x = 491 y = -82 }
 				textureFile = ""
 				font = "vic_22_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 40
+				maxWidth = 24
 				maxHeight = 24	
-				format = right
+				format = left
+				Orientation = "UPPER_LEFT"
 			}
+
 			iconType = {
 				name ="decadence_label"
 				spriteType = "GFX_decadence_label"
-				position = { x= 376 y = 53 }
+				#position = { x= 154 y = -52 } #decadence text =x -2y
+				#combined the icon + label for HF
+				position = { x= 144 y = -56 }#gave old icon prsition ti the combined new icon
 				pdx_tooltip = "DECADENCE_TITLE"
 				pdx_tooltip_delayed = "DECADENCE_DESC"
 			}
+			#iconType = {
+			#	name ="icon_decadence"
+			#	spriteType = "GFX_icon_decadence_color"
+			#	position = { x= 144 y = -56 }
+			#	#pdx_tooltip = "DECADENCE_TITLE"
+			#	#pdx_tooltip_delayed = "DECADENCE_DESC"
+			#}
 			instantTextBoxType = {
 				name = "decadence_text"
-				position = { x = 372 y = 66 }
+				position = { x = 154 y = -50 } #icon +28x +6y
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 30
+				maxWidth = 60
 				maxHeight = 20
-				format = centre
+				format = center #FIX ARKOPACK PRE 3.0 ?
+				#format = centre #VANILLA 3.0
 			}
 			guiButtonType = {
-				name ="dynastic_shield"
+				name ="dynastic_shield" #DYN1
 				quadTextureSprite = "GFX_shield_medium"
-				position = { x= 355 y = -7 }
+				position = { x= 218 y = -53 }
 				Orientation = "UPPER_LEFT"
-				clicksound = generic_click_04
+				clicksound = choose_country_3
 			}
 			
 			guiButtonType = { # Invisible button to make the dynasty text clickable
 				name = "dynasty_button"
-				position = { x = 333 y = -27 }
+				position = { x = 373 y = -46 }
 				quadTextureSprite ="GFX_charview_dynasty_button"
 				clicksound = generic_click_02
 			}
 			instantTextBoxType = {
 				name = "dynasty"
-				position = { x = 333 y = -27 }
+				#position = { x = 336 y = 39 }
+				position = { x = 184 y = 21 } #-150x +25x
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
 				fixedsize = yes
-				maxWidth = 106
+				maxWidth = 130
 				maxHeight = 20	
-				format = centre
+				format = center
 			}
 			
 			instantTextBoxType = {
 				name = "culture"
-				position = { x = 337 y = 84 }
+				position = { x = 234 y = 282 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
 				fixedsize = yes
-				maxWidth = 100
+				maxWidth = 85
 				maxHeight = 20	
-				format = centre
+				format = center
 			}
 			iconType = {
 				name ="religion_icon"
 				spriteType = "GFX_religion_icon_strip"
-				position = { x= 350 y = 104 }
+				#spriteType = "GFX_religion_icon_strip_decorated"
+				position = { x= 267 y = 188 }
+				#position = { x= 246 y = 168 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="secret_religion_icon_bg"
 				spriteType = "GFX_secret_religion_icon_bg"
-				position = { x= 370 y = 117 }
+				position = { x= 292 y = 213 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="secret_religion_icon"
 				spriteType = "GFX_religion_icon_strip_small"
-				position = { x= 372 y = 119 }
+				position = { x= 294 y = 215 } #bg x+2; y+2
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="government_icon"
 				spriteType = "GFX_icon_feudal_government"
-				position = { x= 394 y = 104 }
+				position = { x= 348 y = -35 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name = "plot_icon"
-				position = { x= 502 y = -27 }
+				position = { x= 55 y = 15 } #background x+2 y+2
 				spriteType ="GFX_icon_diplomacy"	
 			}
 			
 			guiButtonType = {
 				name = "quick_ambition_button"
-				position = { x= 439 y = -28 }
+				position = { x= 34 y = 44 }
 				quadTextureSprite ="GFX_charview_quick_ambition_button"
 				clicksound = generic_click_02
 			}
 			iconType = {
 				name = "ambition_icon"
-				position = { x= 440 y = -27 }
+				position = { x= 36 y = 46 } #background x+2 y+2
 				spriteType ="GFX_icon_diplomacy"	
 			}
 			guiButtonType = {
 				name = "quick_focus_button"
-				position = { x= 470 y = -28 }
+				position = { x= 23 y = 79 }
 				quadTextureSprite ="GFX_charview_quick_focus_button"
 				clicksound = generic_click_02
 			}
 			guiButtonType = {
 				name = "focus_button"
-				position = { x= 469 y = -29 }
+				position = { x= 30 y = 79 }
 				quadTextureSprite ="GFX_icon_diplomacy"	
 				clicksound = generic_click_02
 			}
 			guiButtonType =	{
 				name ="cancel_plot"
-				quadTextureSprite= "GFX_cancel_ambition"
-				position = { x= 517 y = -12 }
+				quadTextureSprite= "GFX_cancel_ambition_arkopack"
+				position = { x= 71 y = 31 } #background x+18 y+18
 			}
 			guiButtonType =	{
 				name ="cancel_ambition"
-				quadTextureSprite= "GFX_cancel_ambition"
-				position = { x= 455 y = -12 }
+				quadTextureSprite= "GFX_cancel_ambition_arkopack"
+				position = { x= 52 y = 62 } #icon x+16 y+16
 			}		
-			
-			## icons + stats
-			
+	
+			## icons + stats ##STATS
+
 			iconType = {
 				name ="icon_demesnesize"
 				spriteType = "GFX_icon_demesnesize"
-				position = { x= 440 y = 2 }
+				position = { x= 473 y = 155 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "demesnesize"
-				position = { x = 462 y = 8 }
+				position = { x = 478 y = 162 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1575,12 +1678,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_populationsize"
 				spriteType = "GFX_nomadview_pop_icon"
-				position = { x= 440 y = 5 }
+				position = { x= 473 y = 155 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "populationsize"
-				position = { x = 462 y = 8 }
+				position = { x = 478 y = 162 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1592,12 +1695,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_vassallimit"
 				spriteType = "GFX_icon_vassallimit"
-				position = { x= 440 y = 24 }
+				position = { x= 321 y = 181 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "vassallimit"
-				position = { x = 462 y = 31 }
+				position = { x = 329 y = 187 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1609,12 +1712,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_levies"
 				spriteType = "GFX_icon_armylevies"
-				position = { x= 440 y = 46 }
+				position = { x= 322 y = 154 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "levies"
-				position = { x = 462 y = 52 }
+				position = { x = 329 y = 162 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1626,12 +1729,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_wealth"
 				spriteType = "GFX_icon_wealth"
-				position = { x= 440 y = 69 }
+				position = { x= 473 y = 181 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "wealth"
-				position = { x = 462 y = 75 }
+				position = { x = 478 y = 187 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1643,12 +1746,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_prestige"
 				spriteType = "GFX_icon_prestige"
-				position = { x= 440 y = 92 }
+				position = { x= 398 y = 155 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "prestige"
-				position = { x = 462 y = 98 }
+				position = { x = 402 y = 162 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1660,12 +1763,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_piety"
 				spriteType = "GFX_dynastic_icon_piety"
-				position = { x= 440 y = 115 }
+				position = { x= 398 y = 181 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "piety"
-				position = { x = 462 y = 122 }
+				position = { x = 402 y = 187 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1674,16 +1777,16 @@ guiTypes = {
 				maxHeight = 20	
 				format = right
 			}
-			
+			## ICONS		
 			iconType = {
 				name ="icon_diplomacy"
 				spriteType = "GFX_icon_diplomacy"
-				position = { x= 440 y = 140 }
+				position = { x= 28 y = 194 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "diplomacy"
-				position = { x = 470 y = 146 }
+				position = { x = 17 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1694,7 +1797,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "diplomacy2"
-				position = { x = 505 y = 146 }
+				position = { x = 42 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1706,12 +1809,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_martial"
 				spriteType = "GFX_icon_martial"
-				position = { x= 441 y = 161 }
+				position = { x= 74 y = 194 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "martial"
-				position = { x = 470 y = 167 }
+				position = { x = 62 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1722,7 +1825,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "martial2"
-				position = { x = 505 y = 167 }
+				position = { x = 87 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1734,12 +1837,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_stewardship"
 				spriteType = "GFX_icon_stewardship"
-				position = { x= 439 y = 183 }
+				position = { x= 118 y = 195 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "stewardship"
-				position = { x = 470 y = 188 }
+				position = { x = 107 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1750,7 +1853,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "stewardship2"
-				position = { x = 505 y = 188 }
+				position = { x = 132 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1762,12 +1865,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_intrigue"
 				spriteType = "GFX_icon_intrigue"
-				position = { x= 442 y = 204 }
+				position = { x= 166 y = 195 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "intrigue"
-				position = { x = 470 y = 209 }
+				position = { x = 152 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1778,7 +1881,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "intrigue2"
-				position = { x = 505 y = 209 }
+				position = { x = 177 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1790,12 +1893,12 @@ guiTypes = {
 			iconType = {
 				name ="icon_learning"
 				spriteType = "GFX_icon_learning"
-				position = { x= 440 y = 224 }
+				position = { x= 209 y = 193 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "learning"
-				position = { x = 470 y = 230 }
+				position = { x = 196 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1806,7 +1909,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "learning2"
-				position = { x = 505 y = 230 }
+				position = { x = 222 y = 222 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1816,64 +1919,65 @@ guiTypes = {
 				format = right
 			}
 			
-			iconType = {
+			iconType = { #vanilla 3.0
 				name ="icon_combat_skill"
-				spriteType = "GFX_charview_personal_combat"
-				position = { x= 445 y = 250 }
+				spriteType = "GFX_charview_personal_combat_arkopack"
+				position = { x= 21 y = 242 } #x+500
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "MODIFIER_COMBAT_RATING"
 				pdx_tooltip_delayed = "MODIFIER_COMBAT_RATING_DESC"
 			}
-			instantTextBoxType = {
+			instantTextBoxType = { #vanilla 3.0
 				name = "combat_skill"
-				position = { x = 470 y = 251 }
+				position = { x = 20 y = 258 } #x+500
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 20
+				maxWidth = 30
 				maxHeight = 20	
-				format = right
+				format = center
 			}
 			
 			## overlapping boxes
-			
-			iconType = {
+
+			iconType = { #vanilla 3.0
 				name ="icon_titles"
 				spriteType = "GFX_charview_titles"
-				position = { x= 21 y = 278 }
+				position = { x= 320 y = 93 } #x+500
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARVIEW_TITLES"
 				pdx_tooltip_delayed = "TITLES_TOOLTIP_DELAYED"
 			}
-			
+
 			OverlappingElementsBoxType = {
 				name = "titles"
-				position = { x = 38 y = 283 }
-				size = { x=218 y=32 }
-				format = left
+				position = { x = 318 y = 107 }
+				size = { x=204 y=32 }
+				format = center
+				Orientation = "UPPER_LEFT"
 			}
 			
-			iconType = {
+			iconType = { #vanilla 3.0
 				name ="icon_claims"
-				spriteType = "GFX_charview_claims"
-				position = { x= 262 y = 278 }
-				Orientation = "UPPER_LEFT"
+				spriteType = "GFX_charview_icone_claims"
+				position = { x=321 y = 208 }
+				#Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARVIEW_CLAIMS"
 				pdx_tooltip_delayed = "CLAIMS_TOOLTIP_DELAYED"
 			}
 			
 			OverlappingElementsBoxType = {
 				name = "claims"
-				position = { x = 279 y = 283 }
-				size = { x=108 y=32 }
+				position = { x = 353 y = 222 }
+				size = { x=180 y=32 }
 				format = left
+				Orientation = "UPPER_LEFT"
 			}
-			
 			iconType = {
 				name ="icon_diplomatic_relations"
-				spriteType = "GFX_charview_diplomatic_relations"
-				position = { x= 398 y = 278 }
+				spriteType = "GFX_charview_icone_diplomatie"
+				position = { x= 321 y = 264 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARVIEW_DIPLOMATIC_RELATIONS"
 				pdx_tooltip_delayed = "DIPLOMATIC_RELATIONS_TOOLTIP_DELAYED"
@@ -1881,29 +1985,30 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "diplomatic_relations"
-				position = { x = 415 y = 270 }
-				size = { x=109 y=32 }
+				position = { x = 358 y = 263 }
+				size = { x=175 y=32 }
 				format = left
-			}
-			
-			iconType = {
-				name ="icon_artifact_modifier"
-				spriteType = "GFX_charview_artifact_modifier"
-				position = { x= 381 y = 244 }
 				Orientation = "UPPER_LEFT"
 			}
 			
+			iconType = {  
+				name ="icon_artifact_modifier"
+				spriteType = "GFX_charview_artifact_modifier_arkopack"
+				position = { x= 288 y = 242 }#x+500
+				Orientation = "UPPER_LEFT"
+			}
 			iconType = {
 				name ="icon_commandmodifier"
-				spriteType = "GFX_commandmodifier_icon"
-				position = { x= 410 y = 244 }
+				spriteType = "GFX_commandmodifier_icon_arkopack"
+				position = { x= 21 y = 275 }
 				Orientation = "UPPER_LEFT"
+				#size 30x
 			}
-			
-			iconType = {
+
+			iconType = {  #vanilla 3.0
 				name ="icon_traits"
 				spriteType = "GFX_charview_traits"
-				position = { x= 21 y = 217 }
+				position = { x= 50 y = 242 } #x+500
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARVIEW_TRAITS"
 				pdx_tooltip_delayed = "TRAITS_TOOLTIP_DELAYED"
@@ -1911,29 +2016,48 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "traits"
-				position = { x = 45 y = 217 }
-				size = { x=395 y=32 }
-				format = left
+				position = { x = 45 y = 245 }
+				size = { x=240 y=32 }
+				#format = left
+				format = right #for testing
 			}
-			
-			iconType = {
-				name ="icon_modifiers"
-				spriteType = "GFX_charview_modifiers"
-				position = { x= 21 y = 243 }
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "CHARVIEW_MODIFIERS"
-				pdx_tooltip_delayed = "MODIFIERS_TOOLTIP_DELAYED"
-			}
-			
+
+			#iconType = { #vanilla 3.0
+			#	name ="icon_modifiers"
+			#	spriteType = "GFX_charview_modifiers"
+			#	position = { x= 50 y = 275 } #x+500
+			#	Orientation = "UPPER_LEFT"
+			#	pdx_tooltip = "CHARVIEW_MODIFIERS"
+			#	pdx_tooltip_delayed = "MODIFIERS_TOOLTIP_DELAYED"
+			#}
 			OverlappingElementsBoxType = {
 				name = "modifiers"
-				position = { x = 42 y = 242 }
-				size = { x=339 y=32 }
-				format = left
+				position = { x = 60 y = 276 }
+				size = { x=140 y=32 }
+				#format = left
+				format = right #for testing
 			}
+			iconType = {
+				name ="culture_icone"
+				spriteType = "GFX_charview_icone_culture"
+				position = { x= 204 y = 274 }
+			}
+		}
+		guiButtonType = { #moved forward for visibility
+			name = "quick_plot_button"
+			position = { x=5 y=160 }#arkopack 26
+			quadTextureSprite ="GFX_charview_quick_plot_button"
+			clicksound = generic_click_02
+		}
+		guiButtonType =	{ #moved forward for visibility
+			name ="toggle_forbidden_to_lead_armies"
+			quadTextureSprite ="GFX_toggle_allow_as_leader"
+			position = { x= 4 y = 160 }
+			clicksound = generic_click_01
 		}
 	}
 	
+	###ENTRIES
 	## char entry
 	windowType = {
 		name = "character_50"
@@ -2029,7 +2153,7 @@ guiTypes = {
 		iconType = {
 			name ="relation_icon_strip"
 			spriteType = "GFX_relation_icon_strip"
-			position = { x= 425 y = -3 }
+			position = { x= 435 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -2044,8 +2168,8 @@ guiTypes = {
 		
 		iconType = {
 			name ="portrait_favor_indicator"
-			quadTextureSprite = "GFX_overlay_char_favor_indicator_small"
-			position = { x = 19 y = -5 }
+			quadTextureSprite = "GFX_overlay_char_favor_indicator_small_arkopack"
+			position = { x = 406 y = 17 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_FAVOR_INDICATOR_TOOLTIP"
 		}
@@ -2086,13 +2210,13 @@ guiTypes = {
 		guiButtonType = {
 			name ="shield"
 			quadTextureSprite = "GFX_shield_medium2"
-			position = { x= 60 y = 10 }
+			position = { x= 59 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "shield_crown"
 			spriteType = "GFX_shield_crown_strip_medium2"
-			position = { x = 71 y = -7 }
+			position = { x = 70 y = -15 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -2112,23 +2236,23 @@ guiTypes = {
 		iconType ={
 			name ="liege_prestige"
 			spriteType = "GFX_icon_prestige"
-			position = { x= 378 y = -6 }
+			position = { x= 374 y = -8 } #arkopack -5x -2y
 			Orientation = "UPPER_LEFT"
-			scale = 0.90
+			#scale = 0.90
 		}
 		
 		iconType ={
 			name ="liege_piety"
 			spriteType = "GFX_dynastic_icon_piety"
-			position = { x= 403 y = -6 }
+			position = { x= 399 y = -8 } #arkopack -5x -2y
 			Orientation = "UPPER_LEFT"
-			scale = 0.90
+			#scale = 0.90
 		}
 		
 		iconType ={
 			name ="vote_right"
 			spriteType = "GFX_icon_voteright"
-			position = { x= 428 y = -3 }
+			position = { x= 433 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
@@ -2147,18 +2271,18 @@ guiTypes = {
 		iconType ={
 			name ="tax_who_icon"
 			spriteType = "GFX_icon_crownpope"
-			position = { x= 272 y = 14 }
+			position = { x= 291 y = 14 }
 		}
 		
 		iconType = {
 			name ="pope_opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 303 y = 18 }
+			position = { x= 313 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 				name = "pope_opinion"
-				position = { x = 295 y = 24 }
+				position = { x = 305 y = 24 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -2172,13 +2296,13 @@ guiTypes = {
 		iconType = {
 			name ="tax_bg"
 			spriteType = "GFX_icon_wealth"
-			position = { x= 378 y = 18 }
+			position = { x= 385 y = 16 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.85
+			#scale = 0.85
 		}
 		instantTextBoxType = {
 			name = "tax"
-			position = { x = 333 y = 22 }
+			position = { x = 345 y = 22 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
@@ -2192,12 +2316,12 @@ guiTypes = {
 		iconType = {
 			name ="opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 419 y = 18 }
+			position = { x= 427 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 				name = "opinion"
-				position = { x = 411 y = 24 }
+				position = { x = 419 y = 24 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -2251,33 +2375,33 @@ guiTypes = {
 		
 		guiButtonType = {
 			name ="title_icon"
-			quadTextureSprite = "GFX_shield_small"
+			quadTextureSprite = "GFX_shield_medium2"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType =
 		{
 			name ="title_icon_crown"
-			spriteType = "GFX_shield_crown_strip_small"
-			position = { x= 6 y = -12 }
+			spriteType = "GFX_shield_crown_strip_medium2"
+			position = { x= 10 y = -18 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType ={
 			name ="claim_strong_western"
 			spriteType = "GFX_claim_strong_western"
-			position = { x= 4 y = 3 }
+			position = { x= 0 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType ={
 			name ="claim_strong_muslim"
 			spriteType = "GFX_claim_strong_muslim"
-			position = { x= 5 y = 3 }
+			position = { x= 1 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "claim_strong_pagan"
 			spriteType = "GFX_claim_strong_pagan"
-			position = { x = 5 y = 3 }
+			position = { x = 1 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
@@ -2295,19 +2419,19 @@ guiTypes = {
 		
 		guiButtonType = {
 				name ="shield"
-				quadTextureSprite = "GFX_shield_medium2"
+				quadTextureSprite = "GFX_shield_small"
 				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="crown"
-				spriteType = "GFX_shield_crown_strip_medium2"
+				spriteType = "GFX_shield_crown_strip_small"
 				position = { x= 5 y = -30 }
 				Orientation = "UPPER_LEFT"
 			}
 	}
-	############
+	############ diplo info entry
 	windowType = {
 		name = "diplo_info_entry"
 		backGround=""
