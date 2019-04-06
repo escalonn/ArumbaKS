@@ -1932,6 +1932,14 @@ guiTypes = {
 				format = left
 			}
 		}
+		
+		guiButtonType = {
+			name = "open_wonder_view"
+			quadTextureSprite = "GFX_wonder_icon"
+			position = { x = 404 y = 176 }
+			Orientation = "UPPER_LEFT"
+			clicksound = generic_click_04
+		}
 	}
 	
 	## char entry
