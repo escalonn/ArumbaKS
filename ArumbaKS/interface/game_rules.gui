@@ -58,11 +58,12 @@ guiTypes = {
 			orientation = "CENTER"
 			position = { x=-40 y=-315 }
 
-			iconType = {
-				name = "bronzeman_icon"
-				spriteType = "GFX_highlighted_bronzeman"
+			guiButtonType = {
+				name = "bronzeman_toggle"
 				position = { x = 5 y = 0 }
+				quadTextureSprite = "GFX_bronze_ironman_button"
 				Orientation = "CENTER"
+				clicksound = menu_click
 			}
 
 			checkboxType = {
