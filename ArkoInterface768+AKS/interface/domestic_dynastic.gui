@@ -93,7 +93,7 @@ guiTypes = {
 	windowType = {
 		name = "dynastic_view"
 		backGround =""
-		position = { x = 0 y = 92 }	
+		position = { x = 0 y = 97 }	
 		size = { x = 576 y = 512 }
 		moveable = 0
 		dontRender = ""
